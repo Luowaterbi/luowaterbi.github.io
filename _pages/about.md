@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am a third-year PhD student in the [Language Analysis Group](http://ir.hit.edu.cn/~la/) at [HIT-SCIR], under the supervision of [Prof. Wanxiang Che](http://ir.hit.edu.cn/~car/) and [Asst. Prof. Qingfu Zhu](http://ir.hit.edu.cn/~qfzhu/). My primary research interests are:
+Hello! I am a third-year PhD student in the [Language Analysis Group](http://ir.hit.edu.cn/~la/) at [HIT-SCIR](http://ir.hit.edu.cn/), under the supervision of [Prof. Wanxiang Che](http://ir.hit.edu.cn/~car/) and [Asst. Prof. Qingfu Zhu](http://ir.hit.edu.cn/~qfzhu/). My primary research interests are:
 
-1. **Code Intelligence**: Code Generation and Code-Assisted other tasks.
+1. **Code Intelligence**: Code Generation and Code Assisted Other Tasks.
 2. **Inference Acceleration**: Speculative Decoding.
 
 If you are interested in my research or potential collaborations, please feel free to reach out to me at [xzluo@ir.hit.edu.cn](xzluo@ir.hit.edu.cn)~🎉
