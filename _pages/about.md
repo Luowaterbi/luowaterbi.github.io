@@ -57,12 +57,12 @@ If you are interested in my research or potential collaborations, please feel fr
 
 # 📖 Educations
 - *2022.09 - now*, Ph.D. student, Harbin Institute of Technology. 
-- *2018.09 - 2012.07*, Undergraduate, Harbin Engineering University. 
+- *2018.09 - 2022.07*, Undergraduate, Harbin Engineering University. 
 
 # 💬 Invited Talks
-- *2023.03*, I was invited to give a talk at Qiyuan Lab about the **Training and Application of Code Large Language Models**.
+- *2024.03*, I was invited to give a talk at Qiyuan Lab about the **Training and Application of Code Large Language Models**.
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2023.11 - 2024.9*, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
+- *2023.11 - 2024.09*, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
 - *2022.03 - 2022.08*, Joint Laboratory of HIT and iFLYTEK Research (HFL), China.
