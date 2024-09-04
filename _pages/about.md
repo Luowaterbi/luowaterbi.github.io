@@ -24,6 +24,7 @@ Hello! I am a third-year PhD student in the [Language Analysis Group](http://ir.
 
 If you are interested in my research or potential collaborations, please feel free to reach out to me at [xzluo@ir.hit.edu.cn](xzluo@ir.hit.edu.cn)~🎉
 
+I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the Programming and Algorithms Association and vice president of the Federation of Student Associations.
 
 # 🔥 News
 <!-- - *2024.03*: &nbsp;🎉  -->
@@ -52,8 +53,14 @@ If you are interested in my research or potential collaborations, please feel fr
 
 # 🎖 Honors and Awards
 - *2022.06* Outstanding Graduate.
+- *2021.04* International Collegiate Programming Contest Asia-East Continent Final Contest: Bronze Medal.
 - *2020.12* National Encouragement Scholarship.
+- *2020.12* International Collegiate Programming Contest Asia Shanghai Regional Contest: Silver Medal. 
+- *2020.11* China Collegiate Programming Contest Mianyang Site: Silver Medal.
+- *2023.10* Northeast Collegiate Programming Contest: First Prize.
 - *2019.12* National Scholarship. 
+- *2019.12* International Collegiate Programming Contest Asia-East Continent Final Contest: Bronze Medal. 
+- *2019.11* International Collegiate Programming Contest Asia Shenyang Regional Contest: Silver Medal. 
 
 # 📖 Educations
 - *2022.09 - now*, Ph.D. student, Harbin Institute of Technology. 
