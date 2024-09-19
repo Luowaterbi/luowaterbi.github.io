@@ -26,7 +26,8 @@ If you are interested in my research or potential collaborations, please feel fr
 I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 # 🔥 News
-
+- *2024.09*:  🎉 Our [MultiPoT](https://arxiv.org/abs/2402.10691) and [Make Some Noise](https://arxiv.org/abs/2406.17404) are accepted by EMNLP 2024! Congratulations to all our collaborators!
+- *2024.09*: 🔥 We release [Abacus](https://github.com/HIT-SCIR/Abacus)!
 <!-- - *2024.03*:  🎉  -->
 
 <!-- - *2024.06*:  🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
@@ -48,13 +49,13 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 
 <sup>†</sup> indicates equal contribution.
 
-- [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://arxiv.org/pdf/2408.08696), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che, **preprint**
-- <span style="background-color:green; color:white;">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che
-- <span style="background-color:green; color:white;">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che
-- [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che, **preprint**
-- <span style="background-color:green; color:white;">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che
-- <span style="background-color:green; color:white;">AI Open, 2022</span> [Augmented and challenging datasets with multi-step reasoning and multi-span questions for Chinese judicial reading comprehension](https://www.sciencedirect.com/science/article/pii/S2666651022000225),Qingye Meng, Ziyue Wang, Hang Chen, **Xianzhen Luo**, Baoxin Wang, Zhipeng Chen, Yiming Cui, Dayong Wu, Zhigang Chen, Shijin Wang
-- <span style="background-color:green; color:white;">ACL 2022 (Findings)</span> [Inverse is better! fast and accurate prompt for few-shot slot tagging](https://aclanthology.org/2022.findings-acl.53/), Yutai Hou, Cheng Chen, **Xianzhen Luo**, Bohan Li, Wanxiang Che
+- **preprint** [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://arxiv.org/pdf/2408.08696), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che
+- <span style="background-color:#2e8b57; color:white; padding: 3px 8px; border-radius: 5px; font-weight:bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che
+- <span style="background-color:#2e8b57; color:white; padding: 3px 8px; border-radius: 5px; font-weight:bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che
+- **preprint** [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che
+- <span style="background-color:#2e8b57; color:white; padding: 3px 8px; border-radius: 5px; font-weight:bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che
+- <span style="background-color:#2e8b57; color:white; padding: 3px 8px; border-radius: 5px; font-weight:bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">AI Open, 2022</span> [Augmented and challenging datasets with multi-step reasoning and multi-span questions for Chinese judicial reading comprehension](https://www.sciencedirect.com/science/article/pii/S2666651022000225),Qingye Meng, Ziyue Wang, Hang Chen, **Xianzhen Luo**, Baoxin Wang, Zhipeng Chen, Yiming Cui, Dayong Wu, Zhigang Chen, Shijin Wang
+- <span style="background-color:#2e8b57; color:white; padding: 3px 8px; border-radius: 5px; font-weight:bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">ACL 2022 (Findings)</span> [Inverse is better! fast and accurate prompt for few-shot slot tagging](https://aclanthology.org/2022.findings-acl.53/), Yutai Hou, Cheng Chen, **Xianzhen Luo**, Bohan Li, Wanxiang Che
 
 # 🎖 Honors and Awards
 
