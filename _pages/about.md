@@ -47,12 +47,13 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 </div>
 </div> -->
 - <span class="preprint-tag">Preprint</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://arxiv.org/pdf/2408.08696), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
-- <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
-- <span class="preprint-tag">Preprint</span> [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che.
+- <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che.
-- <span class="conference-tag">AI Open, 2022</span> [Augmented and challenging datasets with multi-step reasoning and multi-span questions for Chinese judicial reading comprehension](https://www.sciencedirect.com/science/article/pii/S2666651022000225),Qingye Meng, Ziyue Wang, Hang Chen, **Xianzhen Luo**, Baoxin Wang, Zhipeng Chen, Yiming Cui, Dayong Wu, Zhigang Chen, Shijin Wang.
+- <span class="preprint-tag">Preprint</span> [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">ACL 2022 (Findings)</span> [Inverse is better! fast and accurate prompt for few-shot slot tagging](https://aclanthology.org/2022.findings-acl.53/), Yutai Hou, Cheng Chen, **Xianzhen Luo**, Bohan Li, Wanxiang Che.
+- <span class="conference-tag">AI Open, 2022</span> [Augmented and challenging datasets with multi-step reasoning and multi-span questions for Chinese judicial reading comprehension](https://www.sciencedirect.com/science/article/pii/S2666651022000225),Qingye Meng, Ziyue Wang, Hang Chen, **Xianzhen Luo**, Baoxin Wang, Zhipeng Chen, Yiming Cui, Dayong Wu, Zhigang Chen, Shijin Wang.
+
 
 <sup>†</sup> indicates equal contribution.
 
@@ -63,7 +64,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - *2020.12* National Encouragement Scholarship.
 - *2020.12* International Collegiate Programming Contest Asia Shanghai Regional Contest: Silver Medal.
 - *2020.11* China Collegiate Programming Contest Mianyang Site: Silver Medal.
-- *2023.10* Northeast Collegiate Programming Contest: First Prize.
+- *2020.10* Northeast Collegiate Programming Contest: First Prize.
 - *2019.12* National Scholarship.
 - *2019.12* International Collegiate Programming Contest Asia-East Continent Final Contest: Bronze Medal.
 - *2019.11* International Collegiate Programming Contest Asia Shenyang Regional Contest: Silver Medal.
@@ -82,4 +83,4 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 # 💻 Internships
 
 - *2023.11 - 2024.09*, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
-- *2022.03 - 2022.08*, Joint Laboratory of HIT and iFLYTEK Research (HFL), China.
+- *2022.03 - 2022.08*, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
