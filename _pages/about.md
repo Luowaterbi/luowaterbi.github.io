@@ -46,6 +46,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 
 </div>
 </div> -->
+- <span class="preprint-tag">Preprint</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://arxiv.org/pdf/2501.06598), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun.
 - <span class="preprint-tag">Preprint</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://arxiv.org/pdf/2408.08696), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
