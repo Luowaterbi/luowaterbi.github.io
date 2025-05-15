@@ -16,7 +16,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am a third-year PhD student in the [Language Analysis Group](http://ir.hit.edu.cn/~la/) at [HIT-SCIR](http://ir.hit.edu.cn/), under the supervision of [Prof. Wanxiang Che](http://ir.hit.edu.cn/~car/) and [Asst. Prof. Qingfu Zhu](http://ir.hit.edu.cn/~qfzhu/). My primary research interests are:
+Hello! I am a third-year PhD student in the [Language Analysis Group](http://ir.hit.edu.cn/~la/) at [HIT-SCIR](http://ir.hit.edu.cn/), under the supervision of [Prof. Wanxiang Che](http://ir.hit.edu.cn/~car/) and [Assoc. Prof. Qingfu Zhu](http://ir.hit.edu.cn/~qfzhu/). 
+Currently, I'm a research intern at StepFun, focusing on the code aspects of LLM pretraining, supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/).
+
+My primary research interests are:
 
 1. **Code Intelligence**: Code Generation and Code Assisted Other Tasks.
 2. **Inference Acceleration**: Speculative Decoding.
@@ -26,11 +29,9 @@ If you are interested in my research or potential collaborations, please feel fr
 I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 # 🔥 News
+- *2025.05*:  🎉 Our [Token Recycling](https://arxiv.org/pdf/2408.08696), [ChartCoder](https://arxiv.org/pdf/2501.06598), [OpenCoder]() are accepted by ACL 2025! Our [ChartEdit]() is accepted by findings of ACL 2025! And another one paper is accepted by KDD 2025! Congratulations to all our collaborators!
 - *2024.09*:  🎉 Our [MultiPoT](https://arxiv.org/abs/2402.10691) and [Make Some Noise](https://arxiv.org/abs/2406.17404) are accepted by EMNLP 2024! Congratulations to all our collaborators!
 - *2024.09*: 🔥 We release [Abacus](https://github.com/HIT-SCIR/Abacus), a 2.7B Code LLM, complete with open weights and detailed training documentation!
-<!-- - *2024.03*:  🎉  -->
-
-<!-- - *2024.06*:  🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -46,8 +47,11 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 
 </div>
 </div> -->
-- <span class="preprint-tag">Preprint</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://arxiv.org/pdf/2501.06598), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun.
-- <span class="preprint-tag">Preprint</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://arxiv.org/pdf/2408.08696), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
+- <span class="conference-tag">ACL 2025</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://arxiv.org/pdf/2408.08696), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
+- <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://arxiv.org/pdf/2501.06598), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun.
+- <span class="conference-tag">ACL 2025</span> [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](), Siming Huang, Tianhao Cheng, Jason Klein Liu, Weidi Xu, JIARAN HAO, Liuyihan Song, Yang Xu, Jian Yang, Jiaheng Liu, Chenchen Zhang, Linzheng Chai, Ruifeng Yuan, **Xianzhen Luo**, Qiufeng Wang, YuanTao Fan, Qingfu Zhu, Zhaoxiang Zhang, Yang Gao, Jie Fu, Qian Liu, Houyi Li, Ge Zhang, Yuan Qi, Xu Yinghui, Wei Chu, Zili Wang.
+- <span class="conference-tag">ACL 2025 (Findings)</span> [ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing](), Xuanle Zhao, Xuexin Liu, Yang Haoyue, **Xianzhen Luo**, Fanhu Zeng, Jianling Li, Qi Shi, Chi Chen.
+- <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che.
@@ -82,6 +86,6 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-
+- *2024.12 - 2024.06*, [StepFun AI](https://www.stepfun.com/), China.
 - *2023.11 - 2024.09*, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
 - *2022.03 - 2022.08*, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
