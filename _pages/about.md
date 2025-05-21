@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am a third-year PhD student in the [Language Analysis Group](http://ir.hit.edu.cn/~la/) at [HIT-SCIR](http://ir.hit.edu.cn/), under the supervision of [Prof. Wanxiang Che](http://ir.hit.edu.cn/~car/) and [Assoc. Prof. Qingfu Zhu](http://ir.hit.edu.cn/~qfzhu/). 
+Hello! I am a third-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
 Currently, I'm a research intern at StepFun, focusing on the code aspects of LLM pretraining, supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/).
 
 My primary research interests are:
@@ -47,10 +47,13 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 
 </div>
 </div> -->
-- <span class="conference-tag">ACL 2025</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://arxiv.org/pdf/2408.08696), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
-- <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://arxiv.org/pdf/2501.06598), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun.
+- <span class="preprint-tag">Preprint</span> [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals](https://arxiv.org/abs/2505.14597), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
+- <span class="preprint-tag">Preprint</span> [Is Compression Really Linear with Code Intelligence?](https://arxiv.org/abs/2505.11441), **Xianzhen Luo<sup>†</sup>**,  Shijie Xuyang<sup>†</sup>, Tianhao Cheng, Zheng Chu, Houyi Li, Ziqi Wang, Siming Huang, Qingfu Zhu, Qiufeng Wang, Xiangyu Zhang, Shuigeng Zhou, Wanxiang Che.
+- <span class="conference-tag">Preprint</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://arxiv.org/pdf/2501.06598), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun.
+- <span class="conference-tag">ACL 2025</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://arxiv.org/pdf/2408.08696), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu.
+- <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://arxiv.org/pdf/2501.06598), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun.
 - <span class="conference-tag">ACL 2025</span> [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](), Siming Huang, Tianhao Cheng, Jason Klein Liu, Weidi Xu, JIARAN HAO, Liuyihan Song, Yang Xu, Jian Yang, Jiaheng Liu, Chenchen Zhang, Linzheng Chai, Ruifeng Yuan, **Xianzhen Luo**, Qiufeng Wang, YuanTao Fan, Qingfu Zhu, Zhaoxiang Zhang, Yang Gao, Jie Fu, Qian Liu, Houyi Li, Ge Zhang, Yuan Qi, Xu Yinghui, Wei Chu, Zili Wang.
-- <span class="conference-tag">ACL 2025 (Findings)</span> [ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing](), Xuanle Zhao, Xuexin Liu, Yang Haoyue, **Xianzhen Luo**, Fanhu Zeng, Jianling Li, Qi Shi, Chi Chen.
+- <span class="conference-tag">ACL 2025 (Findings)</span> [ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing](https://arxiv.org/abs/2505.11935), Xuanle Zhao, Xuexin Liu, Yang Haoyue, **Xianzhen Luo**, Fanhu Zeng, Jianling Li, Qi Shi, Chi Chen.
 - <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
