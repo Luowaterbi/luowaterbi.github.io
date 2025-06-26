@@ -118,6 +118,17 @@ h1:before, .anchor:before {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.oral-tag {
+    background-color: #ff8c00;  /* 橙色，突出显示 */
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;  /* 大写字母增强视觉效果 */
+}
+
 .preprint-tag {
     background-color: #6c757d;  /* 灰色 */
     color: white;
