@@ -128,6 +128,16 @@ h1:before, .anchor:before {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.outstanding-tag {
+    background-color: #8a2be2;  /* 蓝紫色，表示杰出和尊贵 */
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .preprint-tag {
     background-color: #6c757d;  /* 灰色 */
     color: white;
