@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am a third-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
+Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
 Currently, I'm a research intern at StepFun, focusing on the code aspects of LLM pretraining.
 
 <!-- , supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/). -->
@@ -33,7 +33,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 # 🔥 News
 - *2025.07*: 🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/) is selected as <span class="outstanding-tag">ACL2025 Outstanding Paper</span>!
 - *2025.06*: 🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/) and [OpenCoder](https://aclanthology.org/2025.acl-long.1591/) are selected as **Oral** presentation at ACL2025! See you in Vienna! 🇦🇹
-- *2025.05*:  🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/), [ChartCoder](https://aclanthology.org/2025.acl-long.363/), [OpenCoder](https://aclanthology.org/2025.acl-long.1591/) are accepted by ACL 2025! Our [ChartEdit](https://aclanthology.org/2025.findings-acl.185/) is accepted by findings of ACL 2025! And [Tool-MVRL](https://arxiv.org/abs/2506.04625) is accepted by KDD 2025! Congratulations to all our collaborators!
+- *2025.05*:  🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/), [ChartCoder](https://aclanthology.org/2025.acl-long.363/), [OpenCoder](https://aclanthology.org/2025.acl-long.1591/) are accepted by ACL 2025! Our [ChartEdit](https://aclanthology.org/2025.findings-acl.185/) is accepted by findings of ACL 2025! And [Tool-MVRL](https://dl.acm.org/doi/10.1145/3711896.3736835) is accepted by KDD 2025! Congratulations to all our collaborators!
 - *2024.09*:  🎉 Our [MultiPoT](https://arxiv.org/abs/2402.10691) and [Make Some Noise](https://arxiv.org/abs/2406.17404) are accepted by EMNLP 2024! Congratulations to all our collaborators!
 - *2024.09*: 🔥 We release [Abacus](https://github.com/HIT-SCIR/Abacus), a 2.7B Code LLM, complete with open weights and detailed training documentation!
 
@@ -55,7 +55,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://aclanthology.org/2025.acl-long.363/), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun.
 - <span class="conference-tag">ACL 2025</span> <span class="oral-tag">Oral</span> [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](https://aclanthology.org/2025.acl-long.1591/), Siming Huang, Tianhao Cheng, Jason Klein Liu, Weidi Xu, JIARAN HAO, Liuyihan Song, Yang Xu, Jian Yang, Jiaheng Liu, Chenchen Zhang, Linzheng Chai, Ruifeng Yuan, **Xianzhen Luo**, Qiufeng Wang, YuanTao Fan, Qingfu Zhu, Zhaoxiang Zhang, Yang Gao, Jie Fu, Qian Liu, Houyi Li, Ge Zhang, Yuan Qi, Xu Yinghui, Wei Chu, Zili Wang.
 - <span class="conference-tag">ACL 2025 (Findings)</span> [ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing](https://aclanthology.org/2025.findings-acl.185/), Xuanle Zhao<sup>†</sup>, Xuexin Liu<sup>†</sup>, Yang Haoyue<sup>†</sup>, **Xianzhen Luo**, Fanhu Zeng, Jianling Li, Qi Shi, Chi Chen.
-- <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](https://arxiv.org/abs/2506.04625), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
+- <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](https://dl.acm.org/doi/10.1145/3711896.3736835), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che.
@@ -93,6 +93,6 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2024.12 - 2025.06*, [StepFun AI](https://www.stepfun.com/), China.
+- *2024.12 - 2025.08*, [StepFun AI](https://www.stepfun.com/), China.
 - *2023.11 - 2024.09*, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
 - *2022.03 - 2022.08*, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
