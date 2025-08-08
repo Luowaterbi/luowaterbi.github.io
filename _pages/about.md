@@ -98,3 +98,6 @@ I am interested in algorithm competitions. During my undergraduate years, I part
 
 - *2023.11 - 2024.09*, **Research Intern**, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
 - *2022.03 - 2022.08*, **Research Intern**, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
+
+# 🌍 Visitors
+<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=3Htn59BEygLXE-hnhLiMluRiUwZz-6HoR11I9cMkkJk"></script>
