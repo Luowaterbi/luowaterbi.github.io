@@ -16,19 +16,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
-Currently, I'm a research intern at StepFun, focusing on the code aspects of LLM pretraining.
+Hello! I am a fourth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
 
 <!-- , supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/). -->
 
 My primary research interests are:
 
-1. **Code Intelligence**: Code Generation and Code Assisted Other Tasks.
+1. **Code Intelligence**: Pretrain, Post-Train, Inference and Code Assisted Other Tasks.
 2. **Inference Acceleration**: Speculative Decoding.
 
 If you are interested in my research or potential collaborations, please feel free to reach out to me at [xzluo@ir.hit.edu.cn](xzluo@ir.hit.edu.cn)~🎉
 
-I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
+I am interested in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 # 🔥 News
 - *2025.07*: 🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/) is selected as <span class="outstanding-tag">ACL2025 Outstanding Paper</span>!
@@ -61,7 +60,6 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - <span class="conference-tag">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che.
 - <span class="preprint-tag">Preprint</span> [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals](https://arxiv.org/abs/2505.14597), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
 - <span class="preprint-tag">Preprint</span> [Is Compression Really Linear with Code Intelligence?](https://arxiv.org/abs/2505.11441), **Xianzhen Luo<sup>†</sup>**,  Shijie Xuyang<sup>†</sup>, Tianhao Cheng, Zheng Chu, Houyi Li, Ziqi Wang, Siming Huang, Qingfu Zhu, Qiufeng Wang, Xiangyu Zhang, Shuigeng Zhou, Wanxiang Che.
-
 - <span class="preprint-tag">Preprint</span> [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che.
 - <span class="conference-tag">ACL 2022 (Findings)</span> [Inverse is better! fast and accurate prompt for few-shot slot tagging](https://aclanthology.org/2022.findings-acl.53/), Yutai Hou, Cheng Chen, **Xianzhen Luo**, Bohan Li, Wanxiang Che.
 - <span class="conference-tag">AI Open, 2022</span> [Augmented and challenging datasets with multi-step reasoning and multi-span questions for Chinese judicial reading comprehension](https://www.sciencedirect.com/science/article/pii/S2666651022000225),Qingye Meng, Ziyue Wang, Hang Chen, **Xianzhen Luo**, Baoxin Wang, Zhipeng Chen, Yiming Cui, Dayong Wu, Zhigang Chen, Shijin Wang.
@@ -93,6 +91,10 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2024.12 - 2025.08*, [StepFun AI](https://www.stepfun.com/), China.
-- *2023.11 - 2024.09*, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
-- *2022.03 - 2022.08*, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
+- *2024.12 - 2025.08*, **Research Intern**, [StepFun AI](https://www.stepfun.com/), China.
+  - **Adviser**: [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/)
+  - **Research Focus**: The code aspects of LLM pretraining.
+  - **Key Contributions**: Developed code data cleaning, training & evaluation pipelines. Provided core code pretraining data for Step3 LLM. Implemented several specialized pretraining tasks/strategies on code.
+
+- *2023.11 - 2024.09*, **Research Intern**, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
+- *2022.03 - 2022.08*, **Research Intern**, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
