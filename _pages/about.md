@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am a fourth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
+Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
 
 <!-- , supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/). -->
 
@@ -27,7 +27,7 @@ My primary research interests are:
 
 If you are interested in my research or potential collaborations, please feel free to reach out to me at [xzluo@ir.hit.edu.cn](xzluo@ir.hit.edu.cn)~🎉
 
-I am interested in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
+I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 # 🔥 News
 - *2025.07*: 🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/) is selected as <span class="outstanding-tag">ACL2025 Outstanding Paper</span>!
@@ -68,7 +68,7 @@ I am interested in algorithm competitions. During my undergraduate years, I part
 <sup>†</sup> indicates equal contribution.
 
 # 🎖 Honors and Awards
-
+- *2025.07* ACL Outstanding Paper.
 - *2022.06* Outstanding Graduate.
 - *2021.04* International Collegiate Programming Contest Asia-East Continent Final Contest: Bronze Medal.
 - *2020.12* National Encouragement Scholarship.
@@ -85,13 +85,17 @@ I am interested in algorithm competitions. During my undergraduate years, I part
 - *2018.09 - 2022.07*, Undergraduate, Harbin Engineering University.
 
 # 💬 Invited Talks
-
+- *2025.08*, I was invited to give a talk at Alibaba International Consumer Business Unit to share and discuss our paper **Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling**.
 - *2024.03*, I was invited to give a talk at Qiyuan Lab about the **Training and Application of Code Large Language Models**.
 
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2024.12 - 2025.08*, **Research Intern**, [StepFun AI](https://www.stepfun.com/), China.
+- *2025.08 - Present*, **KStar Research Intern**, [Kuaishou Technology](https://www.kuaishou.com/), China.
+  - **Adviser**: [Jingyuan Zhang](https://scholar.google.com/citations?user=pdj-Em0AAAAJ&hl=zh-CN&oi=ao)
+  - **Research Focus**: Terminal agent development and research.
+
+- *2024.12 - 2025.07*, **Research Intern**, [StepFun AI](https://www.stepfun.com/), China.
   - **Adviser**: [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/)
   - **Research Focus**: The code aspects of LLM pretraining.
   - **Key Contributions**: Developed code data cleaning, training & evaluation pipelines. Provided core code pretraining data for Step3 LLM. Implemented several specialized pretraining tasks/strategies on code.

@@ -1,0 +1,422 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/cv.typ/main/cv.typ.schema.json
+
+personal:
+  name: Xianzhen Luo
+  email: xzluo@ir.hit.edu.cn
+  phone: (+86) 188 4556 0861
+  url: 'https://Luowaterbi.github.io'
+  location:
+    city: Harbin Institute of Technology
+    region: Heilongjiang
+    postalCode: 150001
+    country: China
+  profiles:
+    - network: GitHub
+      icon: github
+      fa-set: "Brands"
+      username: Luowaterbi
+      url: https://github.com/Luowaterbi
+    - network: Google Scholar
+      username: Xianzhen Luo
+      icon: google
+      fa-set: "Brands"
+      url: https://scholar.google.com/citations?user=dK4r-QYAAAAJ&hl=en
+
+education:
+  - institution: Harbin Institute of Technology
+    url: https://hit.edu.cn
+    area: 'Code Intelligence'
+    supervisor: '#link("http://ir.hit.edu.cn/~car")[Prof. Wanxiang Che] and #link("http://ir.hit.edu.cn/~qfzhu/")[Assoc. Prof. Qingfu Zhu]'
+    studyType: Ph.D. student
+    startDate: 2022-09-01
+    endDate: Present
+    location: Harbin, China
+    honors:
+      # - Summa Cum Laude (4.0 GPA)
+      # - President's List
+      # - Dean's List
+    courses:
+      # - Algorithms & Data Structures
+      # - Applications in Quantitative Finance
+      # - Engineering Data Analysis
+      # - Compiler Architecture
+    highlights:
+      # - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
+      # - "*Activities*: Debating, Chess, Cricket"
+  - institution: Harbin Engineering University
+    url: http://www.hrbeu.edu.cn
+    area: Computer Science
+    supervisor: 
+    studyType: Bachelor
+    startDate: 2018-09-01
+    endDate: 2022-06-30
+    location: Harbin, China
+    honors:
+      - National Scholarship, 2 x ICPC Regional Silver Medals, 2 x ICPC EC-Final Bronze Medals.
+      # - President's List
+      # - Dean's List
+    courses:
+      # - Algorithms & Data Structures
+      # - Applications in Quantitative Finance
+      # - Engineering Data Analysis
+      # - Compiler Architecture
+    highlights:
+      # - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
+      # - "*Activities*: Debating, Chess, Cricket"
+
+
+publications:  
+  - name: "Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling"
+    publisher: ACL2025 [Outstanding Paper]
+    releaseDate: 
+    url: https://arxiv.org/abs/2408.08696
+    authors:
+      - "*Xianzhen Luo*"
+      - Yixuan Wang
+      - Qingfu Zhu
+      - Zhiming Zhang
+      - Xuanyu Zhang
+      - Qing Yang
+      - Dongliang Xu
+    highlights:
+      # - Token Recycling is a train-free speculative decoding method that leverages trash token—candidate tokens naturally generated and discarded during AR decoding as draft tokens to accelerate LLMs.
+      # - With less than 2MB of additional storage, Token Recycling achieves approximately 2x speedup on all sizes of LLMs. It improves more than 31% compared to previous train-free approaches.
+
+  - name: "ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation"
+    publisher: ACL2025
+    releaseDate: 
+    url: https://arxiv.org/abs/2501.06598
+    authors:
+      - "Xuanle Zhao#super[$*$]"
+      - "*Xianzhen Luo#super[$*$]*"
+      - Qi Shi
+      - Chi Chen
+      - Shuo Wang
+      - Wanxiang Che
+      - Zhiyuan Liu
+      - Maosong Sun
+    highlights:
+      # - ChartCoder is the first to leverage Code LLMs as the language backbones of MLLM. With only 7B parameters, it outperforms existing open-source MLLMs on chart-to-code benchmarks.
+      # - Chart2Code-160k is the first large-scale and diverse chart-to-code dataset, consisting of 160k chart-code pairs across 27 chart types.
+
+  - name: "OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models"
+    publisher: ACL2025 [Oral]
+    releaseDate: 
+    url: 
+    authors:
+      - Siming Huang, Tianhao Cheng, Jason Klein Liu, Weidi Xu, JIARAN HAO, Liuyihan Song, Yang Xu, Jian Yang, Jiaheng Liu, Chenchen Zhang, Linzheng Chai, Ruifeng Yuan, *Xianzhen Luo*, Qiufeng Wang, YuanTao Fan, Qingfu Zhu, Zhaoxiang Zhang, Yang Gao, Jie Fu, Qian Liu, Houyi Li, Ge Zhang, Yuan Qi, Xu Yinghui, Wei Chu, Zili Wang.
+    highlights:
+  
+  - name: "ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing"
+    publisher: ACL2025 (Findings)
+    releaseDate: 
+    url: https://arxiv.org/abs/2505.11935
+    authors:
+      - "Xuanle Zhao#super[$*$]"
+      - "Xuexin Liu#super[$*$]"
+      - "Yang Haoyue#super[$*$]"
+      - "*Xianzhen Luo*"
+      - Fanhu Zeng
+      - Jianling Li
+      - Qi Shi
+      - Chi Chen
+    highlights:
+
+  - name: "Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning"
+    publisher: KDD 2025
+    releaseDate: 
+    url: https://arxiv.org/abs/2506.04625
+    authors:
+      - Zhiyuan Ma
+      - Jiayu Liu
+      - "*Xianzhen Luo*"
+      - Zhenya Huang
+      - Qingfu Zhu
+      - Wanxiang Che
+    highlights:
+      # - Introducing Multi-Agent Meta-Verification to systematically create high-quality, verified instruction datasets, which directly addresses unreliable tool planning and invocation caused by low-quality and hallucinated data.   
+      # - Proposing Exploration-based Reflection Learning, a dynamic "Error → Reflection → Correction" paradigm that enables LLMs to dynamically learn from mistakes and improve reflection abilities.
+  
+  - name: "Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts"
+    publisher: EMNLP 2024
+    releaseDate: 
+    url: https://arxiv.org/abs/2402.10691
+    authors:
+      - "*Xianzhen Luo*"
+      - Qingfu Zhu
+      - Zhiming Zhang
+      - Libo Qin
+      - Xuanyu Zhang
+      - Qing Yang
+      - Dongliang Xu
+      - Wanxiang Che
+    highlights:
+      # - Current PoT research focuses exclusively on Python. We conduct comprehensive experiments across multiple programming languages (PLs), revealing that Python is not always the best choice for PoT.
+      # - MultiPoT is a task and model agnostic approach, which integrates the strengths and diversity of multiple PLs. MultiPoT outperforms Python Self-Consistency and matches or surpasses the best-performing language in each scenario.
+      
+  - name: "Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training"
+    publisher: EMNLP 2024
+    releaseDate: 
+    url: https://aclanthology.org/2024.emnlp-main.718/
+    authors:
+      - "Yixuan Wang#super[$*$]"
+      - "*Xianzhen Luo#super[$*$]*"
+      - Fuxuan Wei
+      - Yijun Liu
+      - Qingfu Zhu
+      - Xuanyu Zhang
+      - Qing Yang
+      - Dongliang Xu
+      - Wanxiang Che
+    highlights:
+      # - Make Some Noise (MSN) is a new training framework as an alternative to SFT, which can unlock the parallel decoding capability of the model through the denoising task.
+      # - MSN enables LLMs to have a comparable acceleration ratio to the SOTA method with minimal loss of task performance.
+
+  - name: "A Survey on Natural Language Processing for Programming"
+    publisher: COLING 2024
+    releaseDate: 
+    url: https://aclanthology.org/2024.lrec-main.149/
+    authors:
+      - Qingfu Zhu  
+      - "*Xianzhen Luo*"
+      - Fang Liu
+      - Cuiyun Gao
+      - Wanxiang Che
+    highlights:
+      # - "Two properties of PL are identified: structure-based and functionality-oriented, which are essential for program understanding and generation, respectively."
+      # - From the perspective of the properties, we systematically review current work, covering tasks, datasets, evaluation methods, techniques, and representative models.
+  
+  - name: "Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals"
+    publisher: Arxiv
+    releaseDate: 
+    url: https://arxiv.org/abs/2505.14597
+    authors:
+      - "*Xianzhen Luo*"
+      - Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
+    highlights:
+      # - Proposed CTF-Code, the first benchmark targeting sensitivity in code understanding, revealing that mainstream Code LLMs struggle with requirement-level details. 
+      # - Introduced a three-dimensional data generation framework and showed that LLMs trained on CTF-Instruct significantly outperform existing methods across multiple benchmarks.
+
+  - name: "Is Compression Really Linear with Code Intelligence?"
+    publisher: Arxiv
+    releaseDate: 
+    url: https://arxiv.org/abs/2505.11441
+    authors:
+      - "Shijie Xuyang#super[$*$]"
+      - "*Xianzhen Luo#super[$*$]*"
+      - Tianhao Cheng, Zheng Chu, Houyi Li, Ziqi Wang, Siming Huang, Qingfu Zhu, Qiufeng Wang, Xiangyu Zhang, Shuigeng Zhou, Wanxiang Che.
+    highlights:
+    # - Leveraged multi-task, multi-language benchmarks to represent code intelligence and proposed Format Annealing to eliminate evaluation biases in pre-trained model assessment. 
+    # - Surprisingly discovered a fundamental logarithmic relationship between code compression and code intelligence.
+
+  - name: "Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models"
+    publisher: Arxiv
+    releaseDate: 
+    url: https://arxiv.org/abs/2403.00338
+    authors:
+      - "*Xianzhen Luo*"
+      - Qingfu Zhu
+      - Zhiming Zhang
+      - Xu Wang
+      - Qing Yang
+      - Dongliang Xu
+      - Wanxiang Che
+    highlights:
+      # - "We discover that Self-Instruct and Natural-Instruct exhibit complementary strengths across four dimensions: correctness, completeness, code format standardization, and diversity."
+      # - Semi-Instruct integrates Self-Instruct and Natural-Instruct, generating novel data that excels in all four dimensions, resulting in significantly improved performance.
+
+  - name: "Inverse is Better! Fast and Accurate Prompt for Few-shot Slot Tagging"
+    publisher: ACL2022 (Findings)
+    releaseDate: 
+    url: https://aclanthology.org/2022.findings-acl.53/
+    authors:
+      - Yutai Hou
+      - Cheng Chen
+      - "*Xianzhen Luo*"
+      - Bohan Li
+      - Wanxiang Che.
+    highlights:
+      # - We introduce the idea of inverse prediction to prompting methods for slot-tagging tasks and propose an Iterative Prediction Strategy which allows the model to consider dependency between different slot types and refine prediction.
+      # - The proposed method brings significant improvements not only in speed but also in accuracy.
+      
+  - name: "Augmented and challenging datasets with multi-step reasoning and multi-span questions for Chinese judicial reading comprehension"
+    publisher: AI Open 2022
+    releaseDate: 
+    url: https://www.sciencedirect.com/science/article/pii/S2666651022000225
+    authors:
+       - Qingye Meng
+       - Ziyue Wang
+       - Hang Chen
+       - "*Xianzhen Luo*"
+       - Baoxin Wang
+       - Zhipeng Chen
+       - Yiming Cui
+       - Dayong Wu
+       - Zhigang Chen
+       - Shijin Wang
+    highlights:
+      # - Introduced two advanced datasets, CJRC2.0 and CJRC3.0, derived from Chinese judicial documents, featuring multi-step reasoning and more challenging questions compared to CJRC.
+      # - CJRC3.0 includes a novel multi-span question type, requiring answers to be derived by extracting and combining multiple spans, advancing explainable legal machine reading comprehension.
+
+work:
+  - organization: "Kuaishou Technology"
+    url: https://www.kuaishou.com/
+    location: Beijing, China
+    positions:
+      - position: "#strong[Kstar] Research Intern"
+        startDate: 2025-08-01
+        endDate: Present
+        highlights:
+          - Focus on terminal agent development and research.
+
+  - organization: "StepFun AI."
+    url: https://www.stepfun.com/
+    location: Beijing, China
+    positions:
+      - position: Research Intern
+        startDate: 2024-12-09
+        endDate: 2025-07-31
+        highlights:
+          - Focus on code pretraining, covering data preparation, LLM training, and evaluation.
+
+  - organization: "Du Xiaoman (Beijing) Science Technology Co., Ltd."
+    url: https://github.com/Duxiaoman-DI
+    location: Beijing, China
+    positions:
+      - position: Research Intern
+        startDate: 2023-11-01
+        endDate: 2024-09-30
+        highlights:
+          - Explore research to enhance the code generation ability of Code LLMs, leverage code to assist other tasks, and accelerate LLM inference.
+          
+  - organization: Joint Laboratory of HIT and iFLYTEK Research (HFL), China.
+    url: https://huggingface.co/hfl
+    location: Beijing, China
+    positions: 
+      - position: Research Intern
+        startDate: 2022-03-01
+        endDate: 2022-08-30
+        highlights:
+          - Focus on Chinese Spell Check.
+          # - 'Focus on Chinese Spell Check, and maintain a #link("https://github.com/destwang/CTCResources")[resource collection repository]'.
+
+projects:
+  - name: "Huozi: An Open-Source Universal LLM"
+    url: https://huozi.8wss.com
+    affiliation: Research Center for Social Computing and Information Retrieval
+    startDate: 2023-03-01
+    endDate: 2023-05-30
+    fork: 12
+    star: 200
+    highlights:
+      - Served as a core developer, responsible for the collection and curation of data for code pretraining and post-training.
+      - Led the collection and organization of Chinese pretraining datasets.
+
+  - name: 'Abacus: A Lightweight Code LLM'
+    url: https://github.com/HIT-SCIR/Abacus
+    affiliation: Research Center for Social Computing and Information Retrieval
+    startDate: 2023-10-01
+    endDate: 2024-09-30
+    fork: 2
+    star: 47
+    highlights:
+      - Abacus with 2.7B parameters, outperforms other Code LLMs with parameters ≤3B such as Stable Code-3B and Granite-3B-Code on both coding and general language tasks.
+      - Led post-training data construction.
+
+
+          
+affiliations:
+  # - organization: Research Center for Social Computing and Information Retrieval
+  #   position: HPC Manager
+  #   location: Harbin, P.R.China 150001
+  #   url: http://ir.hit.edu.cn
+  #   startDate: 2020-09-01
+  #   endDate: 2021-06-30
+  #   highlights:
+  #     - Setting up Slurm on HPC and implementing monitoring and billing systems.
+  #     - Maintaining Slurm and HPC, and conducting a comprehensive system upgrade.
+
+awards:
+  # - title: Champion in the Division A District X Speech Evaluation Contest
+  #   date: 2018-04-01
+  #   issuer: Toastmasters International
+  #   url:
+  #   location: City of London, United Kingdom
+  #   highlights:
+
+certificates:
+  # - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
+  #   date: 2021-09-01
+  #   issuer: Coursera
+  #   url: https://example.com
+      
+skills:
+  # - category: Soft Skills
+  #   skills:
+  #     - Public Speaking
+  #     - Debating
+  #     - Communication
+  #     - Critical Thinking
+  #     - Leadership
+  #     - Persuasive Writing
+  #     - Technical Writing
+  # - category: Programming
+  #   skills:
+  #     - Python
+  #     - C/C++
+  #     - Rust
+  #     - SQL
+  #     - HTML/CSS/Javascript
+  #     - Typst
+  #     - LaTeX
+  # - category: Tools
+  #   skills:
+  #     # - Microsoft Word
+  #     - Git
+  #     - Docker
+  #     - Visual Studio Code
+  #     - Linux
+  #     - Slurm
+  # - category: Web Development
+  #   skills:
+  #     - React
+  #     - Next.js
+  #     - million.js
+  #     - Svelte & Sveltekit
+  #     - Tailwind CSS
+  #     - Node.js
+  #     - Deno
+  #     - FastAPI
+  #     - Flask
+  # - category: BI & Data Analytics
+  #   skills:
+  #     - Microsoft Excel
+  #     - Microsoft Power BI
+  #     - Jupyter Notebook
+  #     - Numpy
+  #     - Pandas
+  #     - Plotly
+  #     - Altair
+
+languages:
+  # - language: English
+  #   fluency: Native speaker
+  # - language: German
+  #   fluency: Native speaker
+  # - language: Japanese
+  #   fluency: Basic proficiency
+
+interests:
+  # - Video Games
+  # - Anime
+  # - Novels
+  # - Reading Non-fiction
+  # - Classical and Original Soundtrack Music
+
+references:
+  # You can comment out the entries below if you don't have any references
+  # The same goes for the publications
+
+  # - name: Dr. Jane Austin
+  #   reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
+  #   url: https://janeaustin.com
