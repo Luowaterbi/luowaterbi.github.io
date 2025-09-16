@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
+Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). Currently, I am a KStar Research Intern at [Kuaishou Technology](https://www.kuaishou.com/).
 
 <!-- , supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/). -->
 
@@ -100,7 +100,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
   - **Research Focus**: The code aspects of LLM pretraining.
   - **Key Contributions**: Developed code data cleaning, training & evaluation pipelines. Provided core code pretraining data for Step3 LLM. Implemented several specialized pretraining tasks/strategies on code.
 
-- *2023.11 - 2024.09*, **Research Intern**, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
+- *2023.11 - 2024.09*, **University-Industry Collaboration Researcher**, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
 - *2022.03 - 2022.08*, **Research Intern**, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
 
 # 🌍 Visitors
