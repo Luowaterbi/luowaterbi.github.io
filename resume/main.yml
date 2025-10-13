@@ -186,9 +186,40 @@ publications:
       # - "Two properties of PL are identified: structure-based and functionality-oriented, which are essential for program understanding and generation, respectively."
       # - From the perspective of the properties, we systematically review current work, covering tasks, datasets, evaluation methods, techniques, and representative models.
   
+  - name: "Scaling Laws for Code: A More Data-Hungry Regime"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2510.08702
+    authors:
+      - "*Xianzhen Luo#super[$*$]*"
+      - "Wenzhen Zheng#super[$*$]"
+      - Qingfu Zhu
+      - Rongyi Zhang
+      - Houyi Li
+      - Siming Huang
+      - Yuantao Fan
+      - Wanxiang Che
+    highlights:
+
+  - name: "How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2510.08720
+    authors:
+      - "*Xianzhen Luo#super[$*$]*"
+      - "Jinyang Huang#super[$*$]"
+      - Wenzhen Zheng
+      - Qingfu Zhu
+      - Mingzheng Xu
+      - Yiheng Xu
+      - Yuantao Fan
+      - Libo Qin
+      - Wanxiang Che
+    highlights:
+
   - name: "Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals"
     publisher: Arxiv
-    releaseDate: 
+    releaseDate:
     url: https://arxiv.org/abs/2505.14597
     authors:
       - "*Xianzhen Luo*"
