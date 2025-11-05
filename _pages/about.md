@@ -70,6 +70,8 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 <sup>†</sup> indicates equal contribution.
 
 # 🎖 Honors and Awards
+- *2025.10* Merit Student (三好学生) of Heilongjiang Province.
+- *2025.10* (PhD Student) National Scholarship.
 - *2025.07* ACL Outstanding Paper.
 - *2022.06* Outstanding Graduate.
 - *2021.04* International Collegiate Programming Contest Asia-East Continent Final Contest: Bronze Medal.
@@ -77,7 +79,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - *2020.12* International Collegiate Programming Contest Asia Shanghai Regional Contest: Silver Medal.
 - *2020.11* China Collegiate Programming Contest Mianyang Site: Silver Medal.
 - *2020.10* Northeast Collegiate Programming Contest: First Prize.
-- *2019.12* National Scholarship.
+- *2019.12* (Undergraduate) National Scholarship.
 - *2019.12* International Collegiate Programming Contest Asia-East Continent Final Contest: Bronze Medal.
 - *2019.11* International Collegiate Programming Contest Asia Shenyang Regional Contest: Silver Medal.
 
@@ -98,7 +100,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
   - **Research Focus**: Terminal agent development and research.
 
 - *2024.12 - 2025.07*, **Research Intern**, [StepFun AI](https://www.stepfun.com/), China.
-  - **Adviser**: [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/)
+  - **Adviser**: [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en)
   - **Research Focus**: The code aspects of LLM pretraining.
   - **Key Contributions**: Developed code data cleaning, training & evaluation pipelines. Provided core code pretraining data for Step3 LLM. Implemented several specialized pretraining tasks/strategies on code.
 

@@ -32,7 +32,7 @@ education:
     endDate: Present
     location: Harbin, China
     honors:
-      # - Summa Cum Laude (4.0 GPA)
+      - National Scholarship
       # - President's List
       # - Dean's List
     courses:
@@ -308,7 +308,8 @@ work:
         startDate: 2024-12-09
         endDate: 2025-07-31
         highlights:
-          - Focus on code pretraining, covering data preparation, LLM training, and evaluation.
+          - The code aspects of LLM pretraining.
+          - Developed code data cleaning, training & evaluation pipelines. Provided core code pretraining data for Step3 LLM. Implemented several specialized pretraining tasks/strategies on code.
 
   - organization: "Du Xiaoman (Beijing) Science Technology Co., Ltd."
     url: https://github.com/Duxiaoman-DI
