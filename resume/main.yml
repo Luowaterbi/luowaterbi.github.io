@@ -186,76 +186,6 @@ publications:
       # - "Two properties of PL are identified: structure-based and functionality-oriented, which are essential for program understanding and generation, respectively."
       # - From the perspective of the properties, we systematically review current work, covering tasks, datasets, evaluation methods, techniques, and representative models.
   
-  - name: "Scaling Laws for Code: A More Data-Hungry Regime"
-    publisher: Arxiv
-    releaseDate:
-    url: https://arxiv.org/abs/2510.08702
-    authors:
-      - "*Xianzhen Luo#super[$*$]*"
-      - "Wenzhen Zheng#super[$*$]"
-      - Qingfu Zhu
-      - Rongyi Zhang
-      - Houyi Li
-      - Siming Huang
-      - Yuantao Fan
-      - Wanxiang Che
-    highlights:
-
-  - name: "How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective"
-    publisher: Arxiv
-    releaseDate:
-    url: https://arxiv.org/abs/2510.08720
-    authors:
-      - "*Xianzhen Luo#super[$*$]*"
-      - "Jinyang Huang#super[$*$]"
-      - Wenzhen Zheng
-      - Qingfu Zhu
-      - Mingzheng Xu
-      - Yiheng Xu
-      - Yuantao Fan
-      - Libo Qin
-      - Wanxiang Che
-    highlights:
-
-  - name: "Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals"
-    publisher: Arxiv
-    releaseDate:
-    url: https://arxiv.org/abs/2505.14597
-    authors:
-      - "*Xianzhen Luo*"
-      - Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
-    highlights:
-      # - Proposed CTF-Code, the first benchmark targeting sensitivity in code understanding, revealing that mainstream Code LLMs struggle with requirement-level details. 
-      # - Introduced a three-dimensional data generation framework and showed that LLMs trained on CTF-Instruct significantly outperform existing methods across multiple benchmarks.
-
-  - name: "Is Compression Really Linear with Code Intelligence?"
-    publisher: Arxiv
-    releaseDate: 
-    url: https://arxiv.org/abs/2505.11441
-    authors:
-      - "Shijie Xuyang#super[$*$]"
-      - "*Xianzhen Luo#super[$*$]*"
-      - Tianhao Cheng, Zheng Chu, Houyi Li, Ziqi Wang, Siming Huang, Qingfu Zhu, Qiufeng Wang, Xiangyu Zhang, Shuigeng Zhou, Wanxiang Che.
-    highlights:
-    # - Leveraged multi-task, multi-language benchmarks to represent code intelligence and proposed Format Annealing to eliminate evaluation biases in pre-trained model assessment. 
-    # - Surprisingly discovered a fundamental logarithmic relationship between code compression and code intelligence.
-
-  - name: "Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models"
-    publisher: Arxiv
-    releaseDate: 
-    url: https://arxiv.org/abs/2403.00338
-    authors:
-      - "*Xianzhen Luo*"
-      - Qingfu Zhu
-      - Zhiming Zhang
-      - Xu Wang
-      - Qing Yang
-      - Dongliang Xu
-      - Wanxiang Che
-    highlights:
-      # - "We discover that Self-Instruct and Natural-Instruct exhibit complementary strengths across four dimensions: correctness, completeness, code format standardization, and diversity."
-      # - Semi-Instruct integrates Self-Instruct and Natural-Instruct, generating novel data that excels in all four dimensions, resulting in significantly improved performance.
-
   - name: "Inverse is Better! Fast and Accurate Prompt for Few-shot Slot Tagging"
     publisher: ACL2022 (Findings)
     releaseDate: 
@@ -288,6 +218,123 @@ publications:
     highlights:
       # - Introduced two advanced datasets, CJRC2.0 and CJRC3.0, derived from Chinese judicial documents, featuring multi-step reasoning and more challenging questions compared to CJRC.
       # - CJRC3.0 includes a novel multi-span question type, requiring answers to be derived by extracting and combining multiple spans, advancing explainable legal machine reading comprehension.
+
+  - name: "From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2511.18538
+    authors:
+      - "*Core Contributor*"
+    highlights:
+
+  - name: "Scaling Laws for Code: A More Data-Hungry Regime"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2510.08702
+    authors:
+      - "*Xianzhen Luo#super[$*$]*"
+      - "Wenzhen Zheng#super[$*$]"
+      - Qingfu Zhu
+      - Rongyi Zhang
+      - Houyi Li
+      - Siming Huang
+      - Yuantao Fan
+      - Wanxiang Che
+    highlights:
+
+  - name: "How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2510.08720
+    authors:
+      - "*Xianzhen Luo#super[$*$]*"
+      - "Jinyang Huang#super[$*$]"
+      - Wenzhen Zheng
+      - Qingfu Zhu
+      - Mingzheng Xu
+      - Yiheng Xu
+      - Yuantao Fan
+      - Libo Qin
+      - Wanxiang Che
+    highlights:
+
+  - name: "Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding"
+    publisher: Arxiv
+    releaseDate:
+    url: https://stepfun.ai/research/en/step3
+    authors:
+      - "*Core Contributor*"
+    highlights:
+
+  - name: "Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2505.14597
+    authors:
+      - "*Xianzhen Luo*"
+      - Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
+    highlights:
+      # - Proposed CTF-Code, the first benchmark targeting sensitivity in code understanding, revealing that mainstream Code LLMs struggle with requirement-level details. 
+      # - Introduced a three-dimensional data generation framework and showed that LLMs trained on CTF-Instruct significantly outperform existing methods across multiple benchmarks.
+
+  - name: "Is Compression Really Linear with Code Intelligence?"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2505.11441
+    authors:
+      - "Shijie Xuyang#super[$*$]"
+      - "*Xianzhen Luo#super[$*$]*"
+      - Tianhao Cheng, Zheng Chu, Houyi Li, Ziqi Wang, Siming Huang, Qingfu Zhu, Qiufeng Wang, Xiangyu Zhang, Shuigeng Zhou, Wanxiang Che.
+    highlights:
+    # - Leveraged multi-task, multi-language benchmarks to represent code intelligence and proposed Format Annealing to eliminate evaluation biases in pre-trained model assessment.
+    # - Surprisingly discovered a fundamental logarithmic relationship between code compression and code intelligence.
+
+  - name: "Automated Snippet-Alignment Data Augmentation for Code Translation"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2510.15004
+    authors:
+      - Zhiming Zhang
+      - Qingfu Zhu
+      - "*Xianzhen Luo*"
+      - Yixuan Wang
+      - Bohan Li
+      - Wanxiang Che
+    highlights:
+
+  - name: "Format-Adapter: Improving Reasoning Capability of LLMs by Adapting Suitable Format"
+    publisher: Arxiv
+    releaseDate:
+    url: https://arxiv.org/abs/2506.23133
+    authors:
+      - Dingzirui Wang
+      - Xuanliang Zhang
+      - Rongyu Cao
+      - Longxu Dou
+      - "*Xianzhen Luo*"
+      - Yingwei Ma
+      - Qingfu Zhu
+      - Wanxiang Che
+      - Binhua Li
+      - Fei Huang
+      - Yongbin Li
+    highlights:
+
+  - name: "Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models"
+    publisher: Arxiv
+    releaseDate: 
+    url: https://arxiv.org/abs/2403.00338
+    authors:
+      - "*Xianzhen Luo*"
+      - Qingfu Zhu
+      - Zhiming Zhang
+      - Xu Wang
+      - Qing Yang
+      - Dongliang Xu
+      - Wanxiang Che
+    highlights:
+      # - "We discover that Self-Instruct and Natural-Instruct exhibit complementary strengths across four dimensions: correctness, completeness, code format standardization, and diversity."
+      # - Semi-Instruct integrates Self-Instruct and Natural-Instruct, generating novel data that excels in all four dimensions, resulting in significantly improved performance.
 
 work:
   - organization: "Kuaishou Technology"
