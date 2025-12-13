@@ -20,16 +20,14 @@ Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hi
 
 <!-- , supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/). -->
 
-My primary research interests are:
-
-1. **Code Intelligence**: Pretrain, Post-Train, Inference and Code Assisted Other Tasks.
-2. **Inference Acceleration**: Speculative Decoding.
+My primary research interest is **Code Intelligence**. I focus on identifying and addressing bottlenecks across the full pipeline: Pretrain, Post-Train, Application and Acceleration of Inference.
 
 If you are interested in my research or potential collaborations, please feel free to reach out to me at [xzluo@ir.hit.edu.cn](xzluo@ir.hit.edu.cn)~🎉
 
 I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 # 🔥 News
+- *2025.12*: 🔥 Our survey [A Practical Guide to Code Intelligence](https://arxiv.org/abs/2511.18538) is publicly available! Honored to have participated as a core contributor.
 - *2025.07*: 🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/) is selected as <span class="outstanding-tag">ACL2025 Outstanding Paper</span>!
 - *2025.06*: 🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/) and [OpenCoder](https://aclanthology.org/2025.acl-long.1591/) are selected as **Oral** presentation at ACL2025! See you in Vienna! 🇦🇹
 - *2025.05*:  🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/), [ChartCoder](https://aclanthology.org/2025.acl-long.363/), [OpenCoder](https://aclanthology.org/2025.acl-long.1591/) are accepted by ACL 2025! Our [ChartEdit](https://aclanthology.org/2025.findings-acl.185/) is accepted by findings of ACL 2025! And [Tool-MVRL](https://dl.acm.org/doi/10.1145/3711896.3736835) is accepted by KDD 2025! Congratulations to all our collaborators!
@@ -37,39 +35,35 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - *2024.09*: 🔥 We release [Abacus](https://github.com/HIT-SCIR/Abacus), a 2.7B Code LLM, complete with open weights and detailed training documentation!
 
 # 📝 Publications
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) `<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'>``</strong>`
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-
-</div>
-</div> -->
-- <span class="preprint-tag">Preprint</span> [From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence](https://arxiv.org/abs/2511.18538), **Core Contributor**.
+## Pretrain
 - <span class="preprint-tag">Preprint</span> [Scaling Laws for Code: A More Data-Hungry Regime](https://arxiv.org/abs/2510.08702), **Xianzhen Luo<sup>†</sup>**, Wenzhen Zheng<sup>†</sup>, Qingfu Zhu, Rongyi Zhang, Houyi Li, Siming Huang, Yuantao Fan, Wanxiang Che.
-- <span class="preprint-tag">Preprint</span> [How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective](https://arxiv.org/abs/2510.08720), **Xianzhen Luo<sup>†</sup>**, Jinyang Huang<sup>†</sup>, Wenzhen Zheng, Qingfu Zhu, Mingzheng Xu, Yiheng Xu, Yuantao Fan, Libo Qin, Wanxiang Che.
 - <span class="preprint-tag">Preprint</span> [Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding](https://stepfun.ai/research/en/step3), **Core Contributor**.
-- <span class="conference-tag">ACL 2025</span> <span class="outstanding-tag">Outstanding Paper</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://aclanthology.org/2025.acl-long.338/), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu.
-- <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://aclanthology.org/2025.acl-long.363/), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun.
 - <span class="conference-tag">ACL 2025</span> <span class="oral-tag">Oral</span> [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](https://aclanthology.org/2025.acl-long.1591/), Siming Huang, Tianhao Cheng, Jason Klein Liu, Weidi Xu, JIARAN HAO, Liuyihan Song, Yang Xu, Jian Yang, Jiaheng Liu, Chenchen Zhang, Linzheng Chai, Ruifeng Yuan, **Xianzhen Luo**, Qiufeng Wang, YuanTao Fan, Qingfu Zhu, Zhaoxiang Zhang, Yang Gao, Jie Fu, Qian Liu, Houyi Li, Ge Zhang, Yuan Qi, Xu Yinghui, Wei Chu, Zili Wang.
-- <span class="conference-tag">ACL 2025 (Findings)</span> [ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing](https://aclanthology.org/2025.findings-acl.185/), Xuanle Zhao<sup>†</sup>, Xuexin Liu<sup>†</sup>, Yang Haoyue<sup>†</sup>, **Xianzhen Luo**, Fanhu Zeng, Jianling Li, Qi Shi, Chi Chen.
-- <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](https://dl.acm.org/doi/10.1145/3711896.3736835), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
-- <span class="conference-tag">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
-- <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
-- <span class="conference-tag">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che.
-- <span class="preprint-tag">Preprint</span> [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals](https://arxiv.org/abs/2505.14597), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
 - <span class="preprint-tag">Preprint</span> [Is Compression Really Linear with Code Intelligence?](https://arxiv.org/abs/2505.11441), **Xianzhen Luo<sup>†</sup>**,  Shijie Xuyang<sup>†</sup>, Tianhao Cheng, Zheng Chu, Houyi Li, Ziqi Wang, Siming Huang, Qingfu Zhu, Qiufeng Wang, Xiangyu Zhang, Shuigeng Zhou, Wanxiang Che.
-- <span class="preprint-tag">Preprint</span> [Format-Adapter: Improving Reasoning Capability of LLMs by Adapting Suitable Format](https://arxiv.org/abs/2506.23133), Dingzirui Wang, Xuanliang Zhang, Rongyu Cao, Longxu Dou, **Xianzhen Luo**, Yingwei Ma, Qingfu Zhu, Wanxiang Che, Binhua Li, Fei Huang, Yongbin Li.
+
+## Post-Train
+- <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://aclanthology.org/2025.acl-long.363/), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun.
+- <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](https://dl.acm.org/doi/10.1145/3711896.3736835), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
+- <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
+- <span class="preprint-tag">Preprint</span> [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals](https://arxiv.org/abs/2505.14597), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
 - <span class="preprint-tag">Preprint</span> [Automated Snippet-Alignment Data Augmentation for Code Translation](https://arxiv.org/abs/2510.15004), Zhiming Zhang, Qingfu Zhu, **Xianzhen Luo**, Yixuan Wang, Bohan Li, Wanxiang Che.
 - <span class="preprint-tag">Preprint</span> [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che.
+
+## Inference
+- <span class="preprint-tag">Preprint</span> [How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective](https://arxiv.org/abs/2510.08720), **Xianzhen Luo<sup>†</sup>**, Jinyang Huang<sup>†</sup>, Wenzhen Zheng, Qingfu Zhu, Mingzheng Xu, Yiheng Xu, Yuantao Fan, Libo Qin, Wanxiang Che.
+- <span class="conference-tag">ACL 2025</span> <span class="outstanding-tag">Outstanding Paper</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://aclanthology.org/2025.acl-long.338/), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu.
+- <span class="conference-tag">ACL 2025 (Findings)</span> [ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs' Capability via Chart Editing](https://aclanthology.org/2025.findings-acl.185/), Xuanle Zhao<sup>†</sup>, Xuexin Liu<sup>†</sup>, Yang Haoyue<sup>†</sup>, **Xianzhen Luo**, Fanhu Zeng, Jianling Li, Qi Shi, Chi Chen.
+- <span class="conference-tag">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
+- <span class="preprint-tag">Preprint</span> [Format-Adapter: Improving Reasoning Capability of LLMs by Adapting Suitable Format](https://arxiv.org/abs/2506.23133), Dingzirui Wang, Xuanliang Zhang, Rongyu Cao, Longxu Dou, **Xianzhen Luo**, Yingwei Ma, Qingfu Zhu, Wanxiang Che, Binhua Li, Fei Huang, Yongbin Li.
+
+## Survey
+- <span class="preprint-tag">Preprint</span> [From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence](https://arxiv.org/abs/2511.18538), **Core Contributor**.
+- <span class="conference-tag">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che.
+
+## Others
 - <span class="conference-tag">ACL 2022 (Findings)</span> [Inverse is better! fast and accurate prompt for few-shot slot tagging](https://aclanthology.org/2022.findings-acl.53/), Yutai Hou, Cheng Chen, **Xianzhen Luo**, Bohan Li, Wanxiang Che.
 - <span class="conference-tag">AI Open, 2022</span> [Augmented and challenging datasets with multi-step reasoning and multi-span questions for Chinese judicial reading comprehension](https://www.sciencedirect.com/science/article/pii/S2666651022000225),Qingye Meng, Ziyue Wang, Hang Chen, **Xianzhen Luo**, Baoxin Wang, Zhipeng Chen, Yiming Cui, Dayong Wu, Zhigang Chen, Shijin Wang.
-
 
 <sup>†</sup> indicates equal contribution.
 
