@@ -147,3 +147,13 @@ h1:before, .anchor:before {
     font-size: 0.9em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 较轻的阴影效果 */
 }
+
+.tech-report-tag {
+    background-color: #1e90ff;  /* 道奇蓝 */
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

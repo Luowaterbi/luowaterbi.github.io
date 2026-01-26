@@ -27,6 +27,7 @@ If you are interested in my research or potential collaborations, please feel fr
 I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 # 🔥 News
+- *2026.01*: 🎉 Our [How Many Code and Test Cases Are Enough?](https://arxiv.org/abs/2510.08720) is accepted by ICLR 2026!
 - *2025.12*: 🔥 Our survey [A Practical Guide to Code Intelligence](https://arxiv.org/abs/2511.18538) is publicly available! Honored to have participated as a core contributor.
 - *2025.07*: 🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/) is selected as <span class="outstanding-tag">ACL2025 Outstanding Paper</span>!
 - *2025.06*: 🎉 Our [Token Recycling](https://aclanthology.org/2025.acl-long.338/) and [OpenCoder](https://aclanthology.org/2025.acl-long.1591/) are selected as **Oral** presentation at ACL2025! See you in Vienna! 🇦🇹
@@ -38,7 +39,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 
 ## Pretrain
 - <span class="conference-tag">ACL 2025</span> <span class="oral-tag">Oral</span> [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](https://aclanthology.org/2025.acl-long.1591/), Siming Huang, Tianhao Cheng, Jason Klein Liu, Weidi Xu, JIARAN HAO, Liuyihan Song, Yang Xu, Jian Yang, Jiaheng Liu, Chenchen Zhang, Linzheng Chai, Ruifeng Yuan, **Xianzhen Luo**, Qiufeng Wang, YuanTao Fan, Qingfu Zhu, Zhaoxiang Zhang, Yang Gao, Jie Fu, Qian Liu, Houyi Li, Ge Zhang, Yuan Qi, Xu Yinghui, Wei Chu, Zili Wang.
-- <span class="preprint-tag">Tech Report</span> [Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding](https://stepfun.ai/research/en/step3), **Core Contributor**.
+- <span class="tech-report-tag">Tech Report</span> [Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding](https://stepfun.ai/research/en/step3), **Core Contributor**.
 - <span class="preprint-tag">Arxiv 2025</span> [Scaling Laws for Code: A More Data-Hungry Regime](https://arxiv.org/abs/2510.08702), **Xianzhen Luo<sup>†</sup>**, Wenzhen Zheng<sup>†</sup>, Qingfu Zhu, Rongyi Zhang, Houyi Li, Siming Huang, Yuantao Fan, Wanxiang Che.
 - <span class="preprint-tag">Arxiv 2025</span> [Is Compression Really Linear with Code Intelligence?](https://arxiv.org/abs/2505.11441), **Xianzhen Luo<sup>†</sup>**,  Shijie Xuyang<sup>†</sup>, Tianhao Cheng, Zheng Chu, Houyi Li, Ziqi Wang, Siming Huang, Qingfu Zhu, Qiufeng Wang, Xiangyu Zhang, Shuigeng Zhou, Wanxiang Che.
 
@@ -51,10 +52,10 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - <span class="preprint-tag">Arxiv 2024</span> [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che.
 
 ## Inference
+- <span class="conference-tag">ICLR 2026</span> [How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective](https://arxiv.org/abs/2510.08720), **Xianzhen Luo<sup>†</sup>**, Jinyang Huang<sup>†</sup>, Wenzhen Zheng, Qingfu Zhu, Mingzheng Xu, Yiheng Xu, Yuantao Fan, Libo Qin, Wanxiang Che.
 - <span class="conference-tag">ACL 2025</span> <span class="outstanding-tag">Outstanding Paper</span> [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://aclanthology.org/2025.acl-long.338/), **Xianzhen Luo**, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu.
 - <span class="conference-tag">ACL 2025 (Findings)</span> [ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs' Capability via Chart Editing](https://aclanthology.org/2025.findings-acl.185/), Xuanle Zhao<sup>†</sup>, Xuexin Liu<sup>†</sup>, Yang Haoyue<sup>†</sup>, **Xianzhen Luo**, Fanhu Zeng, Jianling Li, Qi Shi, Chi Chen.
 - <span class="conference-tag">EMNLP 2024</span> [Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts](https://arxiv.org/abs/2402.10691), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
-- <span class="preprint-tag">Arxiv 2025</span> [How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective](https://arxiv.org/abs/2510.08720), **Xianzhen Luo<sup>†</sup>**, Jinyang Huang<sup>†</sup>, Wenzhen Zheng, Qingfu Zhu, Mingzheng Xu, Yiheng Xu, Yuantao Fan, Libo Qin, Wanxiang Che.
 - <span class="preprint-tag">Arxiv 2025</span> [Format-Adapter: Improving Reasoning Capability of LLMs by Adapting Suitable Format](https://arxiv.org/abs/2506.23133), Dingzirui Wang, Xuanliang Zhang, Rongyu Cao, Longxu Dou, **Xianzhen Luo**, Yingwei Ma, Qingfu Zhu, Wanxiang Che, Binhua Li, Fei Huang, Yongbin Li.
 
 ## Survey
