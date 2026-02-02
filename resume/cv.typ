@@ -318,40 +318,45 @@
                 #let format-conference(conf) = {
                     // Remove any special tags first
                     let clean-conf = conf.replace("[Outstanding Paper]", "").replace("[Oral]", "").trim()
-                    
+
                     // Top-tier conferences get special treatment
                     if clean-conf.contains("ACL") or clean-conf.contains("EMNLP") or clean-conf.contains("NAACL") [
                         #box(
+                            baseline: 0%,
                             fill: red.lighten(92%),
-                            inset: (x: 4pt, y: 1pt),
+                            inset: (x: 2pt, y: 0.5pt),
                             radius: 2pt,
                             [#text(fill: red.darken(20%), weight: "semibold", size: 0.95em)[#clean-conf]]
                         )
                     ] else if clean-conf.contains("KDD") or clean-conf.contains("ICML") or clean-conf.contains("NeurIPS") or clean-conf.contains("ICLR") [
                         #box(
+                            baseline: 0%,
                             fill: green.lighten(92%),
-                            inset: (x: 4pt, y: 1pt),
+                            inset: (x: 2pt, y: 0.5pt),
                             radius: 2pt,
                             [#text(fill: green.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]]
                         )
                     ] else if clean-conf.contains("COLING") or clean-conf.contains("LREC") [
                         #box(
+                            baseline: 0%,
                             fill: teal.lighten(92%),
-                            inset: (x: 4pt, y: 1pt),
+                            inset: (x: 2pt, y: 0.5pt),
                             radius: 2pt,
                             [#text(fill: teal.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]]
                         )
                     ] else if clean-conf.contains("Arxiv") or clean-conf.contains("Preprint") [
                         #box(
+                            baseline: 0%,
                             fill: gray.lighten(90%),
-                            inset: (x: 4pt, y: 1pt),
+                            inset: (x: 2pt, y: 0.5pt),
                             radius: 2pt,
                             [#text(fill: gray.darken(30%), style: "italic", size: 0.95em)[#clean-conf]]
                         )
                     ] else if clean-conf.contains("AI Open") [
                         #box(
+                            baseline: 0%,
                             fill: aqua.lighten(92%),
-                            inset: (x: 4pt, y: 1pt),
+                            inset: (x: 2pt, y: 0.5pt),
                             radius: 2pt,
                             [#text(fill: aqua.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]]
                         )
@@ -362,36 +367,40 @@
                 
                 #if pub.url != none [
                     #if pub.publisher.contains("[Outstanding Paper]") [
-                        #format-conference(pub.publisher) #box(
+                        #box(
+                            baseline: 20%,
                             fill: gradient.linear(red.lighten(88%), orange.lighten(90%)),
-                            inset: (x: 5pt, y: 1.5pt),
+                            inset: (x: 5pt, top: 0.5pt, bottom: 3pt),
                             radius: 2pt,
-                            [🏆 #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[Outstanding Paper]]
+                            [#text(size: 0.75em)[🏆] #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Outstanding Paper]", "").trim() Outstanding Paper]]
                         ) *#link(pub.url)[#pub.name]* \
                     ] else if pub.publisher.contains("[Oral]") [
-                        #format-conference(pub.publisher) #box(
+                        #box(
+                            baseline: 20%,
                             fill: blue.lighten(92%),
-                            inset: (x: 5pt, y: 1.5pt),
+                            inset: (x: 5pt, top: 0.5pt, bottom: 3pt),
                             radius: 2pt,
-                            [📢 #text(fill: blue.darken(30%), weight: "bold", size: 0.95em)[Oral]]
+                            [#text(size: 0.75em)[📢] #text(fill: blue.darken(30%), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Oral]", "").trim() Oral]]
                         ) *#link(pub.url)[#pub.name]* \
                     ] else [
                         #format-conference(pub.publisher) *#link(pub.url)[#pub.name]* \
                     ]
                 ] else [
                     #if pub.publisher.contains("[Outstanding Paper]") [
-                        #format-conference(pub.publisher) #box(
+                        #box(
+                            baseline: 20%,
                             fill: gradient.linear(red.lighten(88%), orange.lighten(90%)),
-                            inset: (x: 5pt, y: 1.5pt),
+                            inset: (x: 5pt, top: 0.5pt, bottom: 3pt),
                             radius: 2pt,
-                            [🏆 #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[Outstanding Paper]]
+                            [#text(size: 0.75em)[🏆] #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Outstanding Paper]", "").trim() Outstanding Paper]]
                         ) *#pub.name* \
                     ] else if pub.publisher.contains("[Oral]") [
-                        #format-conference(pub.publisher) #box(
+                        #box(
+                            baseline: 25%,
                             fill: blue.lighten(92%),
-                            inset: (x: 5pt, y: 1.5pt),
+                            inset: (x: 5pt, top: 0.5pt, bottom: 3pt),
                             radius: 2pt,
-                            [📢 #text(fill: blue.darken(30%), weight: "bold", size: 0.95em)[Oral]]
+                            [#text(size: 0.75em)[📢] #text(fill: blue.darken(30%), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Oral]", "").trim() Oral]]
                         ) *#pub.name* \
                     ] else [
                         #format-conference(pub.publisher) *#pub.name* \

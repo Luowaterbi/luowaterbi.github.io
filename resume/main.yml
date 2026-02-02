@@ -83,7 +83,7 @@ publications:
     highlights:
 
   - name: "Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling"
-    publisher: ACL2025 [Outstanding Paper]
+    publisher: ACL 2025 [Outstanding Paper]
     releaseDate: 
     url: https://arxiv.org/abs/2408.08696
     authors:
@@ -99,7 +99,7 @@ publications:
       # - With less than 2MB of additional storage, Token Recycling achieves approximately 2x speedup on all sizes of LLMs. It improves more than 31% compared to previous train-free approaches.
 
   - name: "ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation"
-    publisher: ACL2025
+    publisher: ACL 2025
     releaseDate: 
     url: https://arxiv.org/abs/2501.06598
     authors:
@@ -116,7 +116,7 @@ publications:
       # - Chart2Code-160k is the first large-scale and diverse chart-to-code dataset, consisting of 160k chart-code pairs across 27 chart types.
 
   - name: "OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models"
-    publisher: ACL2025 [Oral]
+    publisher: ACL 2025 [Oral]
     releaseDate: 
     url: 
     authors:
@@ -124,7 +124,7 @@ publications:
     highlights:
   
   - name: "ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing"
-    publisher: ACL2025 (Findings)
+    publisher: ACL 2025 (Findings)
     releaseDate: 
     url: https://arxiv.org/abs/2505.11935
     authors:
@@ -203,7 +203,7 @@ publications:
       # - From the perspective of the properties, we systematically review current work, covering tasks, datasets, evaluation methods, techniques, and representative models.
   
   - name: "Inverse is Better! Fast and Accurate Prompt for Few-shot Slot Tagging"
-    publisher: ACL2022 (Findings)
+    publisher: ACL 2022 (Findings)
     releaseDate: 
     url: https://aclanthology.org/2022.findings-acl.53/
     authors:
