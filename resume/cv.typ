@@ -235,7 +235,7 @@
             block(width: 100%, breakable: isbreakable)[
                 // line 1: project name and date
                 #if project.url != none [
-                    *#link(project.url)[#project.name #github(project.fork, project.star)]* #h(1fr) #start #sym.dash.en #end \
+                    *#link(project.url)[#project.name #github(project.at("fork", default: none), project.at("star", default: none))]* #h(1fr) #start #sym.dash.en #end \
                 ] else [
                     *#project.name*  #h(1fr) #start #sym.dash.en #end\
                 ]
@@ -327,7 +327,7 @@
                             radius: 2pt,
                             [#text(fill: red.darken(20%), weight: "semibold", size: 0.95em)[#clean-conf]]
                         )
-                    ] else if clean-conf.contains("KDD") or clean-conf.contains("ICML") or clean-conf.contains("NeurIPS") [
+                    ] else if clean-conf.contains("KDD") or clean-conf.contains("ICML") or clean-conf.contains("NeurIPS") or clean-conf.contains("ICLR") [
                         #box(
                             fill: green.lighten(92%),
                             inset: (x: 4pt, y: 1pt),

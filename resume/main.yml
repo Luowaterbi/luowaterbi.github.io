@@ -65,7 +65,23 @@ education:
       # - "*Activities*: Debating, Chess, Cricket"
 
 
-publications:  
+publications:
+  - name: "How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective"
+    publisher: ICLR 2026
+    releaseDate:
+    url: https://arxiv.org/abs/2510.08720
+    authors:
+      - "*Xianzhen Luo#super[$*$]*"
+      - "Jinyang Huang#super[$*$]"
+      - Wenzhen Zheng
+      - Qingfu Zhu
+      - Mingzheng Xu
+      - Yiheng Xu
+      - Yuantao Fan
+      - Libo Qin
+      - Wanxiang Che
+    highlights:
+
   - name: "Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling"
     publisher: ACL2025 [Outstanding Paper]
     releaseDate: 
@@ -219,6 +235,24 @@ publications:
       # - Introduced two advanced datasets, CJRC2.0 and CJRC3.0, derived from Chinese judicial documents, featuring multi-step reasoning and more challenging questions compared to CJRC.
       # - CJRC3.0 includes a novel multi-span question type, requiring answers to be derived by extracting and combining multiple spans, advancing explainable legal machine reading comprehension.
 
+  - name: "CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability"
+    publisher: Arxiv
+    releaseDate:
+    url: https://github.com/livecvebench/CVE-Factory/blob/main/docs/paper.pdf
+    authors:
+      - "*Xianzhen Luo#super[$*$]*"
+      - "Jingyuan Zhang#super[$*$]"
+      - "Shiqi Zhou#super[$*$]"
+      - "Rain Huang#super[$*$]"
+      - Chuan Xiao
+      - Qingfu Zhu
+      - Zhiyuan Ma
+      - Xing Yue
+      - Yang Yue
+      - Wencong Zeng
+      - Wanxiang Che
+    highlights:
+
   - name: "From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence"
     publisher: Arxiv
     releaseDate:
@@ -239,22 +273,6 @@ publications:
       - Houyi Li
       - Siming Huang
       - Yuantao Fan
-      - Wanxiang Che
-    highlights:
-
-  - name: "How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective"
-    publisher: Arxiv
-    releaseDate:
-    url: https://arxiv.org/abs/2510.08720
-    authors:
-      - "*Xianzhen Luo#super[$*$]*"
-      - "Jinyang Huang#super[$*$]"
-      - Wenzhen Zheng
-      - Qingfu Zhu
-      - Mingzheng Xu
-      - Yiheng Xu
-      - Yuantao Fan
-      - Libo Qin
       - Wanxiang Che
     highlights:
 
@@ -380,6 +398,15 @@ work:
           # - 'Focus on Chinese Spell Check, and maintain a #link("https://github.com/destwang/CTCResources")[resource collection repository]'.
 
 projects:
+  - name: 'CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability'
+    url: https://github.com/livecvebench/CVE-Factory
+    affiliation: Kuaishou Technology
+    startDate: 2025-10-01
+    endDate: Present
+    highlights:
+      - A fully automated framework for reproducing CVE vulnerabilities, achieving 95% alignment rate with reproduction from code security experts.
+      - Released 1000+ executable CVE environments, training data, and Abacus-cve model (32B) that surpasses Qwen3-Coder-480B and Claude Sonnet 4.
+
   - name: "Huozi: An Open-Source Universal LLM"
     url: https://huozi.8wss.com
     affiliation: Research Center for Social Computing and Information Retrieval
