@@ -48,7 +48,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://aclanthology.org/2025.acl-long.363/), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun.
 - <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](https://dl.acm.org/doi/10.1145/3711896.3736835), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
-- <span class="preprint-tag">Arxiv 2026</span> [CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability](https://github.com/livecvebench/CVE-Factory/blob/main/docs/paper.pdf), Xianzhen Luo<sup>†</sup>, Jingyuan Zhang<sup>†</sup>, Shiqi Zhou<sup>†</sup>, Rain Huang<sup>†</sup>, Chuan Xiao, Qingfu Zhu, Zhiyuan Ma, Xing Yue, Yang Yue, Wencong Zeng, Wanxiang Che.
+- <span class="preprint-tag">Arxiv 2026</span> [CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability](https://arxiv.org/abs/2602.03012), Xianzhen Luo<sup>†</sup>, Jingyuan Zhang<sup>†</sup>, Shiqi Zhou<sup>†</sup>, Rain Huang<sup>†</sup>, Chuan Xiao, Qingfu Zhu, Zhiyuan Ma, Xing Yue, Yang Yue, Wencong Zeng, Wanxiang Che.
 - <span class="preprint-tag">Arxiv 2025</span> [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals](https://arxiv.org/abs/2505.14597), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
 - <span class="preprint-tag">Arxiv 2025</span> [Automated Snippet-Alignment Data Augmentation for Code Translation](https://arxiv.org/abs/2510.15004), Zhiming Zhang, Qingfu Zhu, **Xianzhen Luo**, Yixuan Wang, Bohan Li, Wanxiang Che.
 - <span class="preprint-tag">Arxiv 2024</span> [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che.
@@ -62,7 +62,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 
 ## Survey
 - <span class="conference-tag">LREC-COLING 2024</span> [A Survey on Natural Language Processing for Programming](https://aclanthology.org/2024.lrec-main.149/), Qingfu Zhu, **Xianzhen Luo**, Fang Liu, Cuiyun Gao, Wanxiang Che.
-- <span class="preprint-tag">Arxiv 2025</span> [From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence](https://arxiv.org/abs/2511.18538), **Core Contributor**.
+- <span class="tech-report-tag">Survey</span> [From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence](https://arxiv.org/abs/2511.18538), **Core Contributor**.
 
 ## Others
 - <span class="conference-tag">ACL 2022 (Findings)</span> [Inverse is better! fast and accurate prompt for few-shot slot tagging](https://aclanthology.org/2022.findings-acl.53/), Yutai Hou, Cheng Chen, **Xianzhen Luo**, Bohan Li, Wanxiang Che.
@@ -90,6 +90,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - *2018.09 - 2022.07*, Undergraduate, Harbin Engineering University.
 
 # 💬 Invited Talks
+- *2026.02*, I was invited to give a talk at MLNLP to share our work **CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability**.
 - *2025.08*, I was invited to give a talk at Alibaba International Consumer Business Unit to share and discuss our paper **Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling**.
 - *2024.03*, I was invited to give a talk at Qiyuan Lab about the **Training and Application of Code Large Language Models**.
 
@@ -107,6 +108,3 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 
 - *2023.11 - 2024.09*, **University-Industry Collaboration Researcher**, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
 - *2022.03 - 2022.08*, **Research Intern**, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
-
-# 🌍 Visitors
-<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=3Htn59BEygLXE-hnhLiMluRiUwZz-6HoR11I9cMkkJk"></script>
