@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). Currently, I am a KStar Research Intern at [Kuaishou Technology](https://www.kuaishou.com/).
+Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hit-scir-la.github.io/) at [HIT-SCIR](https://ir.hit.edu.cn/main.htm), under the supervision of [Prof. Wanxiang Che](https://chewanxiang.com/) and [Assoc. Prof. Qingfu Zhu](https://ir.hit.edu.cn/2024/1021/c19599a356032/page.htm). 
 
 <!-- , supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/). -->
 
@@ -97,9 +97,9 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2025.08 - Present*, **KStar Research Intern**, [Kuaishou Technology](https://www.kuaishou.com/), China.
+- *2025.08 - 2026.3*, **KStar Research Intern**, [Kuaishou Technology](https://www.kuaishou.com/), China.
   - **Adviser**: [Jingyuan Zhang](https://scholar.google.com/citations?user=pdj-Em0AAAAJ&hl=zh-CN&oi=ao)
-  - **Research Focus**: Terminal agent development and research.
+  - **Research Focus**: Scaling environments for code agents.
 
 - *2024.12 - 2025.07*, **Research Intern**, [StepFun AI](https://www.stepfun.com/), China.
   - **Adviser**: [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en)
