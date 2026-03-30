@@ -40,6 +40,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 
 ## Pretrain
 - <span class="conference-tag">ACL 2025</span> <span class="oral-tag">Oral</span> [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](https://aclanthology.org/2025.acl-long.1591/), Siming Huang, Tianhao Cheng, Jason Klein Liu, Weidi Xu, JIARAN HAO, Liuyihan Song, Yang Xu, Jian Yang, Jiaheng Liu, Chenchen Zhang, Linzheng Chai, Ruifeng Yuan, **Xianzhen Luo**, Qiufeng Wang, YuanTao Fan, Qingfu Zhu, Zhaoxiang Zhang, Yang Gao, Jie Fu, Qian Liu, Houyi Li, Ge Zhang, Yuan Qi, Xu Yinghui, Wei Chu, Zili Wang.
+- <span class="tech-report-tag">Tech Report</span> [Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding](https://stepfun.ai/research/en/step3), **Core Contributor**.
 - <span class="preprint-tag">Arxiv 2025</span> [Scaling Laws for Code: A More Data-Hungry Regime](https://arxiv.org/abs/2510.08702), **Xianzhen Luo<sup>†</sup>**, Wenzhen Zheng<sup>†</sup>, Qingfu Zhu, Rongyi Zhang, Houyi Li, Siming Huang, Yuantao Fan, Wanxiang Che.
 - <span class="preprint-tag">Arxiv 2025</span> [Is Compression Really Linear with Code Intelligence?](https://arxiv.org/abs/2505.11441), **Xianzhen Luo<sup>†</sup>**,  Shijie Xuyang<sup>†</sup>, Tianhao Cheng, Zheng Chu, Houyi Li, Ziqi Wang, Siming Huang, Qingfu Zhu, Qiufeng Wang, Xiangyu Zhang, Shuigeng Zhou, Wanxiang Che.
 
@@ -99,6 +100,11 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - *2025.08 - 2026.3*, **KStar Research Intern**, [Kuaishou Technology](https://www.kuaishou.com/), China.
   - **Adviser**: [Jingyuan Zhang](https://scholar.google.com/citations?user=pdj-Em0AAAAJ&hl=zh-CN&oi=ao)
   - **Research Focus**: Scaling environments for code agents.
+
+- *2024.12 - 2025.07*, **Research Intern**, [StepFun AI](https://www.stepfun.com/), China.
+  - **Adviser**: [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en)
+  - **Research Focus**: The code aspects of LLM pretraining.
+  - **Key Contributions**: Developed code data cleaning, training & evaluation pipelines. Provided core code pretraining data for Step3 LLM. Implemented several specialized pretraining tasks/strategies on code.
 
 - *2023.11 - 2024.09*, **University-Industry Collaboration Researcher**, [Du Xiaoman (Beijing) Science Technology Co., Ltd.](https://github.com/Duxiaoman-DI), China.
 - *2022.03 - 2022.08*, **Research Intern**, [Joint Laboratory of HIT and iFLYTEK Research (HFL)](https://huggingface.co/hfl), China.
