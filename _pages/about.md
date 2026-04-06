@@ -27,6 +27,7 @@ If you are interested in my research or potential collaborations, please feel fr
 I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 # 🔥 News
+- *2026.04*: 🎉 Our [Scaling Law for Code](https://arxiv.org/abs/2510.08702) is accepted by ACL 2026! Our [Format-Adapter](https://arxiv.org/abs/2506.23133) is accepted by findings of ACL 2026! Congratulations to all our collaborators!
 - *2026.02*: 🔥 We release [CVE-Factory](https://github.com/livecvebench/CVE-Factory), including [training data](https://huggingface.co/Luoberta/cve_train), [Abacus-cve model](https://huggingface.co/Luoberta/Abacus-cve), [LiveCVEBench](https://github.com/livecvebench/LiveCVEBench-Preview), and [Leaderboard](https://livecvebench.github.io)!
 - *2026.01*: 🎉 Our [How Many Code and Test Cases Are Enough?](https://arxiv.org/abs/2510.08720) is accepted by ICLR 2026!
 - *2025.12*: 🔥 Our survey [A Practical Guide to Code Intelligence](https://arxiv.org/abs/2511.18538) is publicly available! Honored to have participated as a core contributor.
