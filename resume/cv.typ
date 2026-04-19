@@ -302,121 +302,118 @@
 }
 
 #let cvpublications(info, isbreakable: true) = {
-    if info.publications != none {block[
-        == Publications
-        #for pub in info.publications {
-            // parse ISO date strings into datetime objects
-            let date = if pub.releaseDate != none [
-              #utils.strpdate(pub.releaseDate)
-            ] else [
-              #pub.releaseDate
-            ]
-            // create a block layout for each publication entry
-            block(width: 100%, breakable: isbreakable)[
-                // line 1: publication title
-                // Helper function to format conference names
-                #let format-conference(conf) = {
-                    // Remove any special tags first
-                    let clean-conf = conf.replace("[Outstanding Paper]", "").replace("[Oral]", "").trim()
+    if info.publications != none {
+        // Helper: check if a publication is first/co-first authored by Xianzhen Luo
+        let is-first-author(pub) = {
+            let first = pub.authors.at(0)
+            if first.starts-with("*Xianzhen Luo") {
+                true
+            } else {
+                // Check for co-first author marker
+                pub.authors.find(a => a.contains("Xianzhen Luo") and a.contains("super")) != none
+            }
+        }
 
-                    // Top-tier conferences get special treatment
-                    if clean-conf.contains("ACL") or clean-conf.contains("EMNLP") or clean-conf.contains("NAACL") [
-                        #box(
-                            baseline: 0%,
-                            fill: red.lighten(92%),
-                            inset: (x: 2pt, y: 0.5pt),
-                            radius: 2pt,
-                            [#text(fill: red.darken(20%), weight: "semibold", size: 0.95em)[#clean-conf]]
-                        )
-                    ] else if clean-conf.contains("KDD") or clean-conf.contains("ICML") or clean-conf.contains("NeurIPS") or clean-conf.contains("ICLR") [
-                        #box(
-                            baseline: 0%,
-                            fill: green.lighten(92%),
-                            inset: (x: 2pt, y: 0.5pt),
-                            radius: 2pt,
-                            [#text(fill: green.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]]
-                        )
-                    ] else if clean-conf.contains("COLING") or clean-conf.contains("LREC") [
-                        #box(
-                            baseline: 0%,
-                            fill: teal.lighten(92%),
-                            inset: (x: 2pt, y: 0.5pt),
-                            radius: 2pt,
-                            [#text(fill: teal.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]]
-                        )
-                    ] else if clean-conf.contains("Arxiv") or clean-conf.contains("Preprint") [
-                        #box(
-                            baseline: 0%,
-                            fill: gray.lighten(90%),
-                            inset: (x: 2pt, y: 0.5pt),
-                            radius: 2pt,
-                            [#text(fill: gray.darken(30%), style: "italic", size: 0.95em)[#clean-conf]]
-                        )
-                    ] else if clean-conf.contains("AI Open") [
-                        #box(
-                            baseline: 0%,
-                            fill: aqua.lighten(92%),
-                            inset: (x: 2pt, y: 0.5pt),
-                            radius: 2pt,
-                            [#text(fill: aqua.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]]
-                        )
-                    ] else [
-                        #text(weight: "medium", size: 0.95em)[#clean-conf]
-                    ]
-                }
-                
-                #if pub.url != none [
-                    #if pub.publisher.contains("[Outstanding Paper]") [
-                        #box(
-                            baseline: 20%,
-                            fill: gradient.linear(red.lighten(88%), orange.lighten(90%)),
-                            inset: (x: 5pt, top: 0.5pt, bottom: 3pt),
-                            radius: 2pt,
-                            [#text(size: 0.75em)[🏆] #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Outstanding Paper]", "").trim() Outstanding Paper]]
-                        ) *#link(pub.url)[#pub.name]* \
-                    ] else if pub.publisher.contains("[Oral]") [
-                        #box(
-                            baseline: 20%,
-                            fill: blue.lighten(92%),
-                            inset: (x: 5pt, top: 0.5pt, bottom: 3pt),
-                            radius: 2pt,
-                            [#text(size: 0.75em)[📢] #text(fill: blue.darken(30%), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Oral]", "").trim() Oral]]
-                        ) *#link(pub.url)[#pub.name]* \
-                    ] else [
-                        #format-conference(pub.publisher) *#link(pub.url)[#pub.name]* \
-                    ]
-                ] else [
-                    #if pub.publisher.contains("[Outstanding Paper]") [
-                        #box(
-                            baseline: 20%,
-                            fill: gradient.linear(red.lighten(88%), orange.lighten(90%)),
-                            inset: (x: 5pt, top: 0.5pt, bottom: 3pt),
-                            radius: 2pt,
-                            [#text(size: 0.75em)[🏆] #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Outstanding Paper]", "").trim() Outstanding Paper]]
-                        ) *#pub.name* \
-                    ] else if pub.publisher.contains("[Oral]") [
-                        #box(
-                            baseline: 25%,
-                            fill: blue.lighten(92%),
-                            inset: (x: 5pt, top: 0.5pt, bottom: 3pt),
-                            radius: 2pt,
-                            [#text(size: 0.75em)[📢] #text(fill: blue.darken(30%), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Oral]", "").trim() Oral]]
-                        ) *#pub.name* \
-                    ] else [
-                        #format-conference(pub.publisher) *#pub.name* \
-                    ]
-                ]
-                // line 2: authors and date
-                #text(style: "italic")[#pub.authors.map((a,) => eval(a, mode: "markup")).join(", ")] #h(1fr) #date \
-                // summary or description
-                #if pub.highlights != none {
-                    for hi in pub.highlights [
-                        - #eval(hi, mode: "markup")
-                    ]
-                } else {}
+        // Helper: format conference badge
+        let format-conference(conf) = {
+            let clean-conf = conf.replace("[Outstanding Paper]", "").replace("[Oral]", "").trim()
+            if clean-conf.contains("ACL") or clean-conf.contains("EMNLP") or clean-conf.contains("NAACL") [
+                #box(baseline: 0%, fill: red.lighten(92%), inset: (x: 2pt, y: 0.5pt), radius: 2pt,
+                    [#text(fill: red.darken(20%), weight: "semibold", size: 0.95em)[#clean-conf]])
+            ] else if clean-conf.contains("KDD") or clean-conf.contains("ICML") or clean-conf.contains("NeurIPS") or clean-conf.contains("ICLR") [
+                #box(baseline: 0%, fill: green.lighten(92%), inset: (x: 2pt, y: 0.5pt), radius: 2pt,
+                    [#text(fill: green.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]])
+            ] else if clean-conf.contains("COLING") or clean-conf.contains("LREC") [
+                #box(baseline: 0%, fill: teal.lighten(92%), inset: (x: 2pt, y: 0.5pt), radius: 2pt,
+                    [#text(fill: teal.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]])
+            ] else if clean-conf.contains("Arxiv") or clean-conf.contains("Preprint") [
+                #box(baseline: 0%, fill: gray.lighten(90%), inset: (x: 2pt, y: 0.5pt), radius: 2pt,
+                    [#text(fill: gray.darken(30%), style: "italic", size: 0.95em)[#clean-conf]])
+            ] else if clean-conf.contains("Tech Report") or clean-conf.contains("Survey") [
+                #box(baseline: 0%, fill: purple.lighten(92%), inset: (x: 2pt, y: 0.5pt), radius: 2pt,
+                    [#text(fill: purple.darken(30%), weight: "semibold", size: 0.95em)[#clean-conf]])
+            ] else if clean-conf.contains("AI Open") [
+                #box(baseline: 0%, fill: aqua.lighten(92%), inset: (x: 2pt, y: 0.5pt), radius: 2pt,
+                    [#text(fill: aqua.darken(40%), weight: "semibold", size: 0.95em)[#clean-conf]])
+            ] else [
+                #text(weight: "medium", size: 0.95em)[#clean-conf]
             ]
         }
-    ]}
+
+        // Helper: render the conference badge + title line
+        let render-title(pub) = {
+            if pub.url != none [
+                #if pub.publisher.contains("[Outstanding Paper]") [
+                    #box(baseline: 20%, fill: gradient.linear(red.lighten(88%), orange.lighten(90%)),
+                        inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
+                        [#text(size: 0.75em)[🏆] #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Outstanding Paper]", "").trim() Outstanding Paper]]
+                    ) *#link(pub.url)[#pub.name]* \
+                ] else if pub.publisher.contains("[Oral]") [
+                    #box(baseline: 20%, fill: blue.lighten(92%),
+                        inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
+                        [#text(size: 0.75em)[📢] #text(fill: blue.darken(30%), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Oral]", "").trim() Oral]]
+                    ) *#link(pub.url)[#pub.name]* \
+                ] else [
+                    #format-conference(pub.publisher) *#link(pub.url)[#pub.name]* \
+                ]
+            ] else [
+                #if pub.publisher.contains("[Outstanding Paper]") [
+                    #box(baseline: 20%, fill: gradient.linear(red.lighten(88%), orange.lighten(90%)),
+                        inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
+                        [#text(size: 0.75em)[🏆] #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Outstanding Paper]", "").trim() Outstanding Paper]]
+                    ) *#pub.name* \
+                ] else if pub.publisher.contains("[Oral]") [
+                    #box(baseline: 25%, fill: blue.lighten(92%),
+                        inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
+                        [#text(size: 0.75em)[📢] #text(fill: blue.darken(30%), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Oral]", "").trim() Oral]]
+                    ) *#pub.name* \
+                ] else [
+                    #format-conference(pub.publisher) *#pub.name* \
+                ]
+            ]
+        }
+
+        // Split publications into first-author and other
+        let first-pubs = info.publications.filter(pub => is-first-author(pub))
+        let other-pubs = info.publications.filter(pub => not is-first-author(pub))
+
+        // === First-author Publications ===
+        if first-pubs.len() > 0 {block[
+            == First-author Publications
+            #for pub in first-pubs {
+                let date = if pub.releaseDate != none [
+                    #utils.strpdate(pub.releaseDate)
+                ] else [
+                    #pub.releaseDate
+                ]
+                block(width: 100%, breakable: isbreakable)[
+                    #render-title(pub)
+                    #text(style: "italic")[#pub.authors.map((a,) => eval(a, mode: "markup")).join(", ")] #h(1fr) #date \
+                    #if pub.highlights != none {
+                        for hi in pub.highlights [
+                            - #eval(hi, mode: "markup")
+                        ]
+                    } else {}
+                ]
+            }
+        ]}
+
+        // === Other Publications ===
+        if other-pubs.len() > 0 {block[
+            == Other Publications
+            #for pub in other-pubs {
+                let date = if pub.releaseDate != none [
+                    #utils.strpdate(pub.releaseDate)
+                ] else [
+                    #pub.releaseDate
+                ]
+                block(width: 100%, breakable: isbreakable)[
+                    #render-title(pub)
+                    #text(style: "italic")[#pub.authors.map((a,) => eval(a, mode: "markup")).join(", ")] #h(1fr) #date \
+                ]
+            }
+        ]}
+    }
 }
 
 #let cvskills(info, isbreakable: true) = {
