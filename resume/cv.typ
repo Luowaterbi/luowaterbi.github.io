@@ -316,7 +316,7 @@
 
         // Helper: format conference badge
         let format-conference(conf) = {
-            let clean-conf = conf.replace("[Outstanding Paper]", "").replace("[Oral]", "").trim()
+            let clean-conf = conf.replace("[Outstanding Paper]", "").replace("[Oral]", "").replace("[Spotlight]", "").trim()
             if clean-conf.contains("ACL") or clean-conf.contains("EMNLP") or clean-conf.contains("NAACL") [
                 #box(baseline: 0%, fill: red.lighten(92%), inset: (x: 2pt, y: 0.5pt), radius: 2pt,
                     [#text(fill: red.darken(20%), weight: "semibold", size: 0.95em)[#clean-conf]])
@@ -348,6 +348,11 @@
                         inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
                         [#text(size: 0.75em)[🏆] #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Outstanding Paper]", "").trim() Outstanding Paper]]
                     ) *#link(pub.url)[#pub.name]* \
+                ] else if pub.publisher.contains("[Spotlight]") [
+                    #box(baseline: 20%, fill: yellow.lighten(85%),
+                        inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
+                        [#text(size: 0.75em)[⭐] #text(fill: orange.darken(20%), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Spotlight]", "").trim() Spotlight]]
+                    ) *#link(pub.url)[#pub.name]* \
                 ] else if pub.publisher.contains("[Oral]") [
                     #box(baseline: 20%, fill: blue.lighten(92%),
                         inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
@@ -361,6 +366,11 @@
                     #box(baseline: 20%, fill: gradient.linear(red.lighten(88%), orange.lighten(90%)),
                         inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
                         [#text(size: 0.75em)[🏆] #text(fill: gradient.linear(red.darken(10%), orange.darken(10%)), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Outstanding Paper]", "").trim() Outstanding Paper]]
+                    ) *#pub.name* \
+                ] else if pub.publisher.contains("[Spotlight]") [
+                    #box(baseline: 20%, fill: yellow.lighten(85%),
+                        inset: (x: 5pt, top: 0.5pt, bottom: 3pt), radius: 2pt,
+                        [#text(size: 0.75em)[⭐] #text(fill: orange.darken(20%), weight: "bold", size: 0.95em)[#pub.publisher.replace("[Spotlight]", "").trim() Spotlight]]
                     ) *#pub.name* \
                 ] else if pub.publisher.contains("[Oral]") [
                     #box(baseline: 25%, fill: blue.lighten(92%),

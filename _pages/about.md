@@ -27,6 +27,7 @@ If you are interested in my research or potential collaborations, please feel fr
 I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 # 🔥 News
+- *2026.05*: 🎉 Our [CVE-Factory](https://arxiv.org/abs/2602.03012) is accepted as <span class="spotlight-tag">ICML 2026 Spotlight</span>! Congratulations to all our collaborators!
 - *2026.04*: 🎉 Our [Scaling Law for Code](https://arxiv.org/abs/2510.08702) is accepted by ACL 2026! Our [Format-Adapter](https://arxiv.org/abs/2506.23133) is accepted by findings of ACL 2026! Congratulations to all our collaborators!
 - *2026.02*: 🔥 We release [CVE-Factory](https://github.com/livecvebench/CVE-Factory), including [training data](https://huggingface.co/Luoberta/cve_train), [Abacus-cve model](https://huggingface.co/Luoberta/Abacus-cve), [LiveCVEBench](https://github.com/livecvebench/LiveCVEBench-Preview), and [Leaderboard](https://livecvebench.github.io)!
 - *2026.01*: 🎉 Our [How Many Code and Test Cases Are Enough?](https://arxiv.org/abs/2510.08720) is accepted by ICLR 2026!
@@ -46,7 +47,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - <span class="preprint-tag">Arxiv 2025</span> [Is Compression Really Linear with Code Intelligence?](https://arxiv.org/abs/2505.11441), Shijie Xuyang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Zheng Chu, Houyi Li, Siming Huang, Qiufeng Wang, Wanxiang Che, Qingfu Zhu, Shuigeng Zhou.
 
 ## Post-Train
-- <span class="preprint-tag">Arxiv 2026</span> [CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability](https://arxiv.org/abs/2602.03012), Xianzhen Luo<sup>†</sup>, Jingyuan Zhang<sup>†</sup>, Shiqi Zhou<sup>†</sup>, Rain Huang<sup>†</sup>, Chuan Xiao, Qingfu Zhu, Zhiyuan Ma, Xing Yue, Yang Yue, Wencong Zeng, Wanxiang Che.
+- <span class="conference-tag">ICML 2026</span> <span class="spotlight-tag">Spotlight</span> [CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability](https://arxiv.org/abs/2602.03012), Xianzhen Luo<sup>†</sup>, Jingyuan Zhang<sup>†</sup>, Shiqi Zhou<sup>†</sup>, Rain Huang<sup>†</sup>, Chuan Xiao, Qingfu Zhu, Zhiyuan Ma, Xing Yue, Yang Yue, Wencong Zeng, Wanxiang Che.
 - <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://aclanthology.org/2025.acl-long.363/), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun.
 - <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](https://dl.acm.org/doi/10.1145/3711896.3736835), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.

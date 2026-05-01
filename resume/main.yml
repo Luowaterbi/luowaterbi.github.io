@@ -68,7 +68,7 @@ education:
 publications:
   # --- First-author / Co-first-author ---
   - name: "CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability"
-    publisher: Arxiv
+    publisher: ICML 2026 [Spotlight]
     releaseDate:
     url: https://github.com/livecvebench/CVE-Factory/blob/main/docs/paper.pdf
     authors:
