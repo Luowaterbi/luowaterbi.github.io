@@ -20,11 +20,16 @@ Hello! I am a forth-year PhD student in the [Language Analysis Group](https://hi
 
 <!-- , supervised by [Houyi Li](https://scholar.google.com/citations?user=LkqxJqoAAAAJ&hl=en) and [Zili Wang](https://commencement.github.io/). -->
 
-My primary research interest is **Code Intelligence**. I focus on identifying and addressing bottlenecks across the full pipeline: Pretrain, Post-Train, Application and Acceleration of Inference.
+My primary research interest is **Code Intelligence**. I focus on identifying and addressing bottlenecks across the full pipeline: Pretrain, Post-Train, Application and Acceleration of Inference. Currently, I am working on **scaling hard enough environments and tasks for Code Agents**.
+
+I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
 If you are interested in my research or potential collaborations, please feel free to reach out to me at [xzluo@ir.hit.edu.cn](xzluo@ir.hit.edu.cn)~🎉
 
-I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
+<div class="job-market-banner">
+<div class="job-market-title">📢 I am on the job market!</div>
+I am graduating between <span style="color: #e65100; font-weight: bold;">Dec 2026 and Jun 2027</span>, with <span style="color: #e65100; font-weight: bold;">7 first-author publications</span> at ACL (including one <span style="color: #e65100; font-weight: bold;">Outstanding Paper</span>), ICML (including one <span style="color: #e65100; font-weight: bold;">Spotlight</span>), ICLR, EMNLP. I am actively seeking <b>research/engineering positions</b> in LLM and Code Intelligence.
+</div>
 
 # 🔥 News
 - *2026.05*: 🎉 Our [CVE-Factory](https://arxiv.org/abs/2602.03012) is accepted as <span class="spotlight-tag">ICML 2026 Spotlight</span>! Congratulations to all our collaborators!
@@ -47,7 +52,7 @@ I am interest in algorithm competitions. During my undergraduate years, I partic
 - <span class="preprint-tag">Arxiv 2025</span> [Is Compression Really Linear with Code Intelligence?](https://arxiv.org/abs/2505.11441), Shijie Xuyang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Zheng Chu, Houyi Li, Siming Huang, Qiufeng Wang, Wanxiang Che, Qingfu Zhu, Shuigeng Zhou.
 
 ## Post-Train
-- <span class="conference-tag">ICML 2026</span> <span class="spotlight-tag">Spotlight</span> [CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability](https://arxiv.org/abs/2602.03012), Xianzhen Luo<sup>†</sup>, Jingyuan Zhang<sup>†</sup>, Shiqi Zhou<sup>†</sup>, Rain Huang<sup>†</sup>, Chuan Xiao, Qingfu Zhu, Zhiyuan Ma, Xing Yue, Yang Yue, Wencong Zeng, Wanxiang Che.
+- <span class="conference-tag">ICML 2026</span> <span class="spotlight-tag">Spotlight</span> [CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability](https://arxiv.org/abs/2602.03012), **Xianzhen Luo<sup>†</sup>**, Jingyuan Zhang<sup>†</sup>, Shiqi Zhou<sup>†</sup>, Rain Huang<sup>†</sup>, Chuan Xiao, Qingfu Zhu, Zhiyuan Ma, Xing Yue, Yang Yue, Wencong Zeng, Wanxiang Che.
 - <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://aclanthology.org/2025.acl-long.363/), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun.
 - <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](https://dl.acm.org/doi/10.1145/3711896.3736835), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
