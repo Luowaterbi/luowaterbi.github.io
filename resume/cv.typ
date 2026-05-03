@@ -76,7 +76,7 @@
         box(fa-at() + sym.space.en + link("mailto:" + info.personal.email)),
         if uservars.showNumber {box( fa-phone-alt() + sym.space.en + link("tel:" + info.personal.phone))} else {none},
         if info.personal.url != none {
-            box(link(info.personal.url)[#info.personal.url.split("//").at(1)])
+            box(fa-globe() + sym.space.en + link(info.personal.url)[#info.personal.url.split("//").at(1)])
         }
     ).filter(it => it != none) // filter out none elements from the profile array
 
@@ -93,6 +93,8 @@
                         #fa-linkedin()
                     ] else if profile.icon == "twitter" [
                         #fa-twitter()
+                    ] else if profile.icon == "weixin" [
+                        #fa-weixin()
                     ] else [
                         #fa-globe()
                     ]

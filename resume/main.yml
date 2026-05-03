@@ -11,16 +11,16 @@ personal:
     postalCode: 150001
     country: China
   profiles:
-    - network: GitHub
-      icon: github
-      fa-set: "Brands"
-      username: Luowaterbi
-      url: https://github.com/Luowaterbi
     - network: Google Scholar
       username: Xianzhen Luo
       icon: google
       fa-set: "Brands"
       url: https://scholar.google.com/citations?user=dK4r-QYAAAAJ&hl=en
+    - network: "15290843908"
+      icon: weixin
+      fa-set: "Brands"
+      username: "15290843908"
+      url: https://Luowaterbi.github.io
 
 education:
   - institution: Harbin Institute of Technology
@@ -32,7 +32,7 @@ education:
     endDate: Present
     location: Harbin, China
     honors:
-      - National Scholarship, ACL 2025 Outstanding Paper
+      - National Scholarship, ACL 2025 Outstanding Paper, ICML 2026 Spotlight
       # - President's List
       # - Dean's List
     courses:
