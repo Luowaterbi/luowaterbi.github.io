@@ -24,7 +24,7 @@ My primary research interest is **Code Intelligence**. I focus on identifying an
 
 I am interest in algorithm competitions. During my undergraduate years, I participated in various programming contests and served as the president of the *Programming and Algorithms Association* and vice president of the [Federation of Student Associations](https://xsh.hrbeu.edu.cn/8746/list.htm).
 
-If you are interested in my research or potential collaborations, please feel free to reach out to me at [xzluo@ir.hit.edu.cn](xzluo@ir.hit.edu.cn)~🎉
+If you are interested in my research or potential collaborations, please feel free to reach out to me at [xzluo@ir.hit.edu.cn](xzluo@ir.hit.edu.cn) or <i class="fab fa-weixin"></i> WeChat: **15290843908** ~🎉
 
 <div class="job-market-banner">
 <div class="job-market-title">📢 I am on the job market!</div>
@@ -78,6 +78,7 @@ I am graduating between <span style="color: #e65100; font-weight: bold;">Dec 202
 <sup>†</sup> indicates equal contribution.
 
 # 🎖 Honors and Awards
+- *2026.05* ICML Spotlight.
 - *2025.10* Merit Student (三好学生) of Heilongjiang Province.
 - *2025.10* (PhD Student) National Scholarship.
 - *2025.07* ACL Outstanding Paper.
