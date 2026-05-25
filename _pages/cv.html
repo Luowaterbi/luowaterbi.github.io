@@ -35,7 +35,7 @@ permalink: /cv/
         <em>Supervisor:</em> <a href="http://ir.hit.edu.cn/~car">Prof. Wanxiang Che</a> and <a href="http://ir.hit.edu.cn/~qfzhu/">Assoc. Prof. Qingfu Zhu</a>
       </div>
       <ul class="cv-highlights">
-        <li><em>Honors</em>: National Scholarship, <span class="cv-pub-badge cv-pub-outstanding"><i class="fas fa-trophy"></i> ACL 2025 Outstanding Paper</span>, <span class="cv-pub-badge cv-pub-oral">📢 ICML 2026 Oral</span></li>
+        <li><em>Honors</em>: National Scholarship, <span class="cv-pub-badge cv-pub-outstanding"><i class="fas fa-trophy"></i> ACL 2025 Outstanding Paper (Top 0.3%)</span>, <span class="cv-pub-badge cv-pub-outstanding">🏆 ICML 2026 Oral (Top 0.7%)</span></li>
       </ul>
     </div>
 
@@ -68,9 +68,10 @@ permalink: /cv/
         <span class="cv-entry-right">Aug 2025 &ndash; Mar 2026</span>
       </div>
       <ul class="cv-highlights">
+        <li>Addressed inflated scores and inefficiency in test case quality evaluation by formulating it as a mathematical problem on a <strong>binary matrix</strong>, systematically determining the number of code solutions and test cases needed, converging the evaluation count to 5%.</li>
         <li>Developed a Multi-Agent Framework (CVE-Factory) from scratch to scale terminal environments for code security. Fully automated collection, construction, testing, and evaluation without human intervention.</li>
-        <li>Cross-validated with expert manual reproduction, achieving over 95% consistency. Supports asynchronous parallelism, generating 215 tasks in under 5 hours with 20 parallel on a single machine (vs. 10 hours per task for experts).</li>
-        <li>Scaled to 4k+ high-quality vulnerability repair tasks. The performance of finetuned Qwen3-32B improved 5x, is comparable to Minimax-M2.7 and Claude Sonnet 4. Demonstrated strong generalization on TerminalBench and cross-language settings.</li>
+        <li>Reproduction quality matches expert level. Cross-validated with expert manual reproduction (10+ hours/task), achieving over 95% consistency. Supports asynchronous parallelism, generating 215 tasks in under 5 hours with 20 parallel on a single machine.</li>
+        <li>Scaled to 4k+ high-quality vulnerability repair tasks. The performance of finetuned Qwen3-32B improved 5x, comparable to Minimax-M2.7 and Claude Sonnet 4. Demonstrated strong generalization on TerminalBench and cross-language settings.</li>
       </ul>
     </div>
 
@@ -93,7 +94,7 @@ permalink: /cv/
 
     <div class="cv-entry">
       <div class="cv-entry-header">
-        <span class="cv-entry-left"><strong><a href="https://github.com/Duxiaoman-DI">Du Xiaoman (Beijing) Science Technology Co., Ltd.</a></strong></span>
+        <span class="cv-entry-left"><strong><a href="https://github.com/Duxiaoman-DI">Du Xiaoman</a></strong></span>
         <span class="cv-entry-right"><strong>Beijing, China</strong></span>
       </div>
       <div class="cv-entry-header">
@@ -103,6 +104,7 @@ permalink: /cv/
       <ul class="cv-highlights">
         <li>Synthesized code SFT data from the perspectives of correctness and detail sensitivity, achieving SOTA on small LLMs.</li>
         <li>Leveraged multilingual programming languages to assist reasoning, yielding consistent improvements across benchmarks and LLMs.</li>
+        <li>Proposed a noisy training framework that unlocks parallel decoding capability of LLMs through denoising tasks, achieving 2x speedup while preserving task performance.</li>
         <li>Achieved 2x lossless acceleration with only 2MB extra storage by exploiting vocabulary distributions from LLM decoding, outperforming prior train-free speculative decoding methods by over 30%.</li>
       </ul>
     </div>
@@ -113,7 +115,7 @@ permalink: /cv/
     <h2 class="cv-section-title">FIRST-AUTHOR PUBLICATIONS</h2>
 
     <div class="cv-publication">
-      <span class="cv-pub-badge cv-pub-oral">📢 ICML 2026 Oral</span>
+      <span class="cv-pub-badge cv-pub-outstanding">🏆 ICML 2026 Oral</span>
       <a href="https://github.com/livecvebench/CVE-Factory/blob/main/docs/paper.pdf"><strong>CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</strong></a><br>
       <em><strong>Xianzhen Luo<sup>*</sup></strong>, Jingyuan Zhang<sup>*</sup>, Shiqi Zhou<sup>*</sup>, Rain Huang<sup>*</sup>, Chuan Xiao, Qingfu Zhu, Zhiyuan Ma, Xing Yue, Yang Yue, Wencong Zeng, Wanxiang Che</em>
     </div>
@@ -176,6 +178,12 @@ permalink: /cv/
   <!-- Other Publications -->
   <div class="cv-section">
     <h2 class="cv-section-title">OTHER PUBLICATIONS</h2>
+
+    <div class="cv-publication">
+      <span class="cv-pub-venue cv-pub-ml">ICML 2026</span>
+      <strong>Memoria-Bench: A Comprehensive Benchmark for Evaluating Memory in Long-Horizon Autonomous Agents</strong><br>
+      <em>Qiufeng Wang, ..., Siming Huang, <strong>Xianzhen Luo</strong>, ..., Qianwen Zhang</em>
+    </div>
 
     <div class="cv-publication">
       <span class="cv-pub-venue cv-pub-top">ACL 2026 (Findings)</span>
