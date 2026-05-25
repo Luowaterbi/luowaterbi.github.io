@@ -32,7 +32,7 @@ education:
     endDate: Present
     location: Harbin, China
     honors:
-      - National Scholarship, ACL 2025 Outstanding Paper, ICML 2026 Spotlight
+      - National Scholarship, ACL 2025 Outstanding Paper, ICML 2026 Oral
       # - President's List
       # - Dean's List
     courses:
@@ -68,7 +68,7 @@ education:
 publications:
   # --- First-author / Co-first-author ---
   - name: "CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability"
-    publisher: ICML 2026 [Spotlight]
+    publisher: ICML 2026 [Oral]
     releaseDate:
     url: https://github.com/livecvebench/CVE-Factory/blob/main/docs/paper.pdf
     authors:

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xianzhen Luo - CV</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  @page {
+    size: A4;
+    margin: 0.8cm 1cm;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: "Linux Libertine", "Georgia", "Times New Roman", serif;
+    font-size: 9pt;
+    line-height: 1.4;
+    color: #2c3e50;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 0.8cm 1cm;
+    background: #fff;
+  }
+
+  a { color: #2980b9; text-decoration: none; transition: color 0.2s; }
+  a:hover { color: #e74c3c; text-decoration: underline; }
+
+  /* ===== Header ===== */
+  .cv-header {
+    text-align: center;
+    padding-bottom: 0.4em;
+    margin-bottom: 0.35em;
+    border-bottom: 2.5px solid #2c3e50;
+  }
+  .cv-name {
+    font-size: 1.8em;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #1a252f;
+    margin-bottom: 0.25em;
+  }
+  .cv-contact {
+    font-size: 0.88em;
+    color: #555;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.2em 1.4em;
+  }
+  .cv-contact i {
+    color: #2980b9;
+    margin-right: 0.25em;
+    width: 1em;
+    text-align: center;
+  }
+
+  /* ===== Section ===== */
+  .cv-section { margin-bottom: 0.35em; }
+  .cv-section-title {
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.12em;
+  }
+
+  /* ===== Entry ===== */
+  .cv-entry {
+    margin-bottom: 0.35em;
+    padding-left: 8px;
+    border-left: 3px solid #3498db;
+  }
+  .cv-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 1.3;
+  }
+  .cv-entry-left { flex: 1; }
+  .cv-entry-right {
+    text-align: right;
+    white-space: nowrap;
+    margin-left: 1em;
+    color: #7f8c8d;
+    font-size: 0.92em;
+  }
+  .cv-entry-details {
+    margin-top: 0.1em;
+    font-size: 0.93em;
+    color: #555;
+  }
+  .cv-highlights {
+    margin: 0.1em 0 0 1em;
+    padding: 0;
+  }
+  .cv-highlights li {
+    margin-bottom: 0.05em;
+    font-size: 0.9em;
+    color: #444;
+  }
+
+  /* ===== Publication ===== */
+  .cv-publication {
+    margin-bottom: 0.25em;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background: #f8f9fa;
+    border-left: 3px solid #dee2e6;
+    line-height: 1.35;
+  }
+  .cv-publication:hover { background: #eef2f7; }
+
+  .cv-pub-title {
+    color: #2c3e50;
+    font-weight: 700;
+    font-size: 0.95em;
+  }
+  .cv-pub-title:hover { color: #2980b9; }
+
+  .cv-pub-authors {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 0px;
+  }
+  .cv-pub-authors strong { color: #1a3a5c; font-weight: 800; }
+
+  /* Venue tags */
+  .cv-pub-venue {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 3px;
+    font-size: 0.78em;
+    font-weight: 700;
+    margin-right: 0.3em;
+    vertical-align: middle;
+    letter-spacing: 0.02em;
+  }
+  .cv-pub-top { background: #fde8e8; color: #c0392b; }
+  .cv-pub-ml { background: #d4edda; color: #1a7a3a; }
+  .cv-pub-other { background: #d1ecf1; color: #0c5460; }
+  .cv-pub-preprint { background: #e9ecef; color: #6c757d; font-style: italic; }
+  .cv-pub-survey { background: #f3e5f5; color: #7b1fa2; }
+
+  /* Special badges */
+  .cv-pub-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.78em;
+    font-weight: 700;
+    margin-right: 0.3em;
+    vertical-align: middle;
+  }
+  .cv-pub-outstanding {
+    background: linear-gradient(135deg, #fff3e0, #fce4ec);
+    color: #bf360c;
+    border: 1.5px solid #e65100;
+    box-shadow: 0 1px 3px rgba(230,81,0,0.15);
+  }
+  .cv-pub-outstanding i { color: #e65100; margin-right: 0.2em; }
+  .cv-pub-spotlight {
+    background: linear-gradient(135deg, #fffde7, #fff8e1);
+    color: #b8860b;
+    border: 1.5px solid #daa520;
+    box-shadow: 0 1px 3px rgba(218,165,32,0.15);
+  }
+  .cv-pub-oral {
+    background: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #90caf9;
+  }
+
+  /* Highlighted publications */
+  .cv-pub-highlight-outstanding {
+    background: linear-gradient(135deg, #fff8f0, #fff3ea);
+    border-left: 3px solid #e65100;
+  }
+  .cv-pub-highlight-spotlight {
+    background: linear-gradient(135deg, #fffef5, #fffde7);
+    border-left: 3px solid #daa520;
+  }
+  .cv-pub-highlight-oral {
+    background: linear-gradient(135deg, #f0f7ff, #e8f4fd);
+    border-left: 3px solid #1565c0;
+  }
+
+  /* ===== Work-paper tag ===== */
+  .cv-work-paper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.4em;
+    padding: 1px 6px;
+    border-radius: 3px;
+    border: 1px solid #d0d7de;
+    background: #f0f4f8;
+    font-size: 0.75em;
+    line-height: 1.2;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .cv-work-paper:hover { background: #e4eaf0; text-decoration: none; }
+  .cv-work-paper-name { font-weight: 600; color: #2c3e50; font-size: 0.95em; }
+  .cv-work-paper-venue { font-size: 0.85em; color: #888; }
+  .cv-work-paper-venue.wp-pub { font-weight: 700; color: #c0392b; }
+  .cv-work-paper.wp-spotlight {
+    border-color: #daa520;
+    background: linear-gradient(135deg, #fffef5, #fffde7);
+  }
+  .cv-work-paper.wp-outstanding {
+    border-color: #e65100;
+    background: linear-gradient(135deg, #fff8f0, #fff3ea);
+  }
+  .cv-work-paper.wp-oral {
+    border-color: #e65100;
+    background: linear-gradient(135deg, #fff8f0, #fff3ea);
+  }
+
+  /* ===== Project ===== */
+  .cv-project-meta {
+    font-size: 0.85em;
+    color: #7f8c8d;
+    margin-left: 0.5em;
+  }
+  .cv-project-meta i { margin: 0 0.1em; }
+
+  /* ===== Footer ===== */
+  .cv-footer {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 0.72em;
+    color: #bbb;
+  }
+
+  /* ===== Print ===== */
+  @media print {
+    body { padding: 0; max-width: none; background: none; }
+    a { color: #2c3e50 !important; }
+    .cv-publication { break-inside: avoid; }
+    .cv-entry { break-inside: avoid; }
+    .cv-work-paper { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .cv-pub-venue, .cv-pub-badge, .cv-section-title,
+    .cv-pub-highlight-outstanding, .cv-pub-highlight-spotlight, .cv-pub-highlight-oral,
+    .wp-spotlight, .wp-outstanding, .wp-oral, .wp-pub {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="cv-header">
+  <h1 class="cv-name">XIANZHEN LUO</h1>
+  <div class="cv-contact">
+    <span><i class="fas fa-envelope"></i> <a href="mailto:xzluo@ir.hit.edu.cn">xzluo@ir.hit.edu.cn</a></span>
+    <span><i class="fas fa-phone"></i> (+86) 188 4556 0861</span>
+    <span><i class="fas fa-globe"></i> <a href="https://Luowaterbi.github.io">Luowaterbi.github.io</a></span>
+    <span><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=dK4r-QYAAAAJ&hl=en">Google Scholar</a></span>
+    <span><i class="fab fa-weixin"></i> 15290843908</span>
+  </div>
+</div>
+
+<!-- Education -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-graduation-cap" style="margin-right:0.4em"></i>EDUCATION</h2>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://hit.edu.cn">Harbin Institute of Technology</a></strong> &middot; Ph.D. Student &middot; Code LLMs</span>
+      <span class="cv-entry-right">Sep 2022 &ndash; Present</span>
+    </div>
+    <div class="cv-entry-details">
+      Supervisor: <a href="http://ir.hit.edu.cn/~car">Prof. Wanxiang Che</a> &middot; <a href="http://ir.hit.edu.cn/~qfzhu/">Assoc. Prof. Qingfu Zhu</a>
+    </div>
+    <div class="cv-entry-details" style="margin-top:0.15em">
+      Honors: National Scholarship &middot; <span class="cv-pub-badge cv-pub-outstanding">🏆 ACL 2025 Outstanding Paper (Top 0.3%)</span> &middot; <span class="cv-pub-badge cv-pub-outstanding">🏆 ICML 2026 Oral (Top 0.7%)</span>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="http://www.hrbeu.edu.cn">Harbin Engineering University</a></strong> &middot; Bachelor &middot; Computer Science</span>
+      <span class="cv-entry-right">Sep 2018 &ndash; Jun 2022</span>
+    </div>
+    <div class="cv-entry-details">
+      Honors: National Scholarship &middot; 2 &times; ICPC Regional Silver Medals &middot; 2 &times; ICPC EC-Final Bronze Medals
+    </div>
+  </div>
+</div>
+
+<!-- Experience -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-briefcase" style="margin-right:0.4em"></i>EXPERIENCE</h2>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://www.kuaishou.com/">Kuaishou Technology</a></strong> &middot; <strong>KStar</strong> Research Intern</span>
+      <span class="cv-entry-right">Aug 2025 &ndash; Mar 2026 &middot; Beijing</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>Addressed inflated scores and inefficiency in test case quality evaluation by formulating it as a mathematical problem on a <strong>binary matrix, systematically determining the number of code solutions and test cases needed</strong>, converging the evaluation count to 5%.<span class="cv-work-paper"><span class="cv-work-paper-name">TC-Bench</span><span class="cv-work-paper-venue wp-pub">ICLR 2026</span></span></li>
+      <li>Developed a Multi-Agent Framework from scratch to scale <strong>terminal environments</strong> for code security at <strong>large scale and high efficiency</strong>. Fully automated collection, construction, testing, and evaluation without human intervention.</li>
+      <li><strong>Reproduction quality matches expert level</strong>. Cross-validated with expert manual reproduction (10+ hours/task), achieving over 95% consistency. Supports asynchronous parallelism, generating 215 tasks in under 5 hours with 20 parallel on a single machine.</li>
+      <li>Scaled to 4k+ high-quality vulnerability repair tasks. The performance of finetuned Qwen3-32B improved 5x, comparable to Minimax-M2.7 and Claude Sonnet 4. Demonstrated <strong>strong generalization</strong> on TerminalBench and cross-language settings.<span class="cv-work-paper wp-oral"><span class="cv-work-paper-name">CVE-Factory</span><span class="cv-work-paper-venue wp-pub">ICML 2026 Oral</span></span></li>
+    </ul>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://www.stepfun.com/">StepFun AI</a></strong> &middot; Pretrain Research Intern</span>
+      <span class="cv-entry-right">Dec 2024 &ndash; Jul 2025 &middot; Beijing</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>Developed and cleaned <strong>full-scale GitHub file</strong> &amp; issue data from scratch. Further refined filter rules to remove garbled text, significantly reducing loss spikes. Conducted experiments on code data with FIM, Meta Info, MTP, and Focal Loss strategies.<span class="cv-work-paper"><span class="cv-work-paper-name">Step-3</span><span class="cv-work-paper-venue">Tech Report</span></span></li>
+      <li>Explored and validated <strong>Scaling Laws for Code</strong>. Under certain constraints, <strong>prediction error was less than 0.1%</strong>.<span class="cv-work-paper"><span class="cv-work-paper-name">Code Scaling Laws</span><span class="cv-work-paper-venue wp-pub">ACL 2026</span></span></li>
+      <li>Discovered a <strong>logarithmic</strong> relationship between code <strong>compression ratio</strong> and downstream <strong>code task performance</strong>.<span class="cv-work-paper"><span class="cv-work-paper-name">Code Compression</span><span class="cv-work-paper-venue">Arxiv</span></span></li>
+    </ul>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://github.com/Duxiaoman-DI">Du Xiaoman</a></strong> &middot; University-Industry Collaboration Researcher</span>
+      <span class="cv-entry-right">Nov 2023 &ndash; Sep 2024 &middot; Beijing</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>Synthesized code SFT data from the perspectives of <strong>correctness</strong> and <strong>detail sensitivity</strong>, achieving SOTA on small LLMs.<span class="cv-work-paper"><span class="cv-work-paper-name">Semi-Instruct</span><span class="cv-work-paper-venue">Arxiv 2024</span></span> <span class="cv-work-paper"><span class="cv-work-paper-name">CTF-Instruct</span><span class="cv-work-paper-venue">Arxiv 2025</span></span></li>
+      <li>Leveraged <strong>multilingual programming languages</strong> to assist reasoning, yielding consistent improvements across benchmarks and LLMs.<span class="cv-work-paper"><span class="cv-work-paper-name">MultiPoT</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></li>
+      <li>Proposed a noisy training framework that <strong>unlocks parallel decoding capability of LLMs</strong> through denoising tasks, achieving 2x speedup while preserving task performance.<span class="cv-work-paper"><span class="cv-work-paper-name">Make Some Noise</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></li>
+      <li>Achieved <strong>2x lossless acceleration with only 2MB extra storage</strong> by exploiting vocabulary distributions from LLM decoding, outperforming prior train-free speculative decoding methods by over 30%.<span class="cv-work-paper wp-outstanding"><span class="cv-work-paper-name">Token Recycling</span><span class="cv-work-paper-venue wp-pub">ACL 2025 Outstanding</span></span></li>
+    </ul>
+  </div>
+</div>
+
+<!-- First-author Publications -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-file-alt" style="margin-right:0.4em"></i>FIRST-AUTHOR PUBLICATIONS</h2>
+
+  <div class="cv-publication cv-pub-highlight-oral">
+    <span class="cv-pub-badge cv-pub-outstanding">🏆 ICML 2026 Oral</span>
+    <a class="cv-pub-title" href="https://github.com/livecvebench/CVE-Factory/blob/main/docs/paper.pdf">CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</a>
+    <div class="cv-pub-authors"><strong>Xianzhen Luo</strong>, Jingyuan Zhang, Shiqi Zhou, Jinyang Huang, Chuan Xiao, Qingfu Zhu, Zhiyuan Ma, Xing Yue, Yang Yue, Wencong Zeng, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2026</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2510.08702">Scaling Laws for Code: A More Data-Hungry Regime</a>
+    <div class="cv-pub-authors"><strong>Xianzhen Luo<sup>*</sup></strong>, Wenzhen Zheng<sup>*</sup>, Qingfu Zhu, Rongyi Zhang, Houyi Li, Siming Huang, Yuantao Fan, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-ml">ICLR 2026</span>
+    <a class="cv-pub-title" href="https://openreview.net/forum?id=RomWar2kVN">How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective</a>
+    <div class="cv-pub-authors"><strong>Xianzhen Luo<sup>*</sup></strong>, Jinyang Huang<sup>*</sup>, Wenzhen Zheng, Qingfu Zhu, Mingzheng Xu, Yiheng Xu, Yuantao Fan, Libo Qin, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication cv-pub-highlight-outstanding">
+    <span class="cv-pub-badge cv-pub-outstanding">🏆 ACL 2025 Outstanding Paper</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2025.acl-long.338/">Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling</a>
+    <div class="cv-pub-authors"><strong>Xianzhen Luo</strong>, Yixuan Wang, Qingfu Zhu, Zhiming Zhang, Xuanyu Zhang, Qing Yang, Dongliang Xu</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2025</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2025.acl-long.363/">ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation</a>
+    <div class="cv-pub-authors">Xuanle Zhao<sup>*</sup>, <strong>Xianzhen Luo<sup>*</sup></strong>, Qi Shi, Chi Chen, Shuo Wang, Wanxiang Che, Zhiyuan Liu, Maosong Sun</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">EMNLP 2024</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2024.emnlp-main.408/">Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts</a>
+    <div class="cv-pub-authors"><strong>Xianzhen Luo</strong>, Qingfu Zhu, Zhiming Zhang, Libo Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">EMNLP 2024</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2024.emnlp-main.718/">Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training</a>
+    <div class="cv-pub-authors">Yixuan Wang<sup>*</sup>, <strong>Xianzhen Luo<sup>*</sup></strong>, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.11441">Is Compression Really Linear with Code Intelligence?</a>
+    <div class="cv-pub-authors">Shijie Xuyang<sup>*</sup>, <strong>Xianzhen Luo<sup>*</sup></strong>, Zheng Chu, Houyi Li, Siming Huang, Qiufeng Wang, Wanxiang Che, Qingfu Zhu, Shuigeng Zhou</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.14597">Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals</a>
+    <div class="cv-pub-authors"><strong>Xianzhen Luo</strong>, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2403.00338">Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models</a>
+    <div class="cv-pub-authors"><strong>Xianzhen Luo</strong>, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che</div>
+  </div>
+</div>
+
+<!-- Other Publications -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-book" style="margin-right:0.4em"></i>OTHER PUBLICATIONS</h2>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-ml">ICML 2026</span>
+    <a class="cv-pub-title">Memoria-Bench: A Comprehensive Benchmark for Evaluating Memory in Long-Horizon Autonomous Agents</a>
+    <div class="cv-pub-authors">Qiufeng Wang, ..., Siming Huang, <strong>Xianzhen Luo</strong>, ..., Qianwen Zhang</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2026 (Findings)</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2506.23133">Format-Adapter: Improving Reasoning Capability of LLMs by Adapting Suitable Format</a>
+    <div class="cv-pub-authors">Dingzirui Wang, Xuanliang Zhang, Rongyu Cao, Longxu Dou, <strong>Xianzhen Luo</strong>, Yingwei Ma, Qingfu Zhu, Wanxiang Che, Binhua Li, Fei Huang, Yongbin Li</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-survey">Survey</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2511.18538">From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence</a>
+    <div class="cv-pub-authors"><strong>Core Contributor</strong></div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-survey">Tech Report</span>
+    <a class="cv-pub-title" href="https://stepfun.ai/research/en/step3">Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding</a>
+    <div class="cv-pub-authors"><strong>Core Contributor</strong></div>
+  </div>
+
+  <div class="cv-publication cv-pub-highlight-oral">
+    <span class="cv-pub-venue cv-pub-top">ACL 2025</span> <span class="cv-pub-badge cv-pub-oral">📢 Oral</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2025.acl-long.1591/">OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models</a>
+    <div class="cv-pub-authors">Siming Huang, Tianhao Cheng, ..., <strong>Xianzhen Luo</strong>, ..., Zili Wang</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-ml">KDD 2025</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2506.04625">Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning</a>
+    <div class="cv-pub-authors">Zhiyuan Ma, Jiayu Liu, <strong>Xianzhen Luo</strong>, Zhenya Huang, Qingfu Zhu, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2025 (Findings)</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2025.findings-acl.185/">ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs' Capability via Chart Editing</a>
+    <div class="cv-pub-authors">Xuanle Zhao<sup>*</sup>, Xuexin Liu<sup>*</sup>, Yang Haoyue<sup>*</sup>, <strong>Xianzhen Luo</strong>, Fanhu Zeng, Jianling Li, Qi Shi, Chi Chen</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-other">COLING 2024</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2024.lrec-main.149/">A Survey on Natural Language Processing for Programming</a>
+    <div class="cv-pub-authors">Qingfu Zhu, <strong>Xianzhen Luo</strong>, Fang Liu, Cuiyun Gao, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2022 (Findings)</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2022.findings-acl.53/">Inverse is Better! Fast and Accurate Prompt for Few-shot Slot Tagging</a>
+    <div class="cv-pub-authors">Yutai Hou, Cheng Chen, <strong>Xianzhen Luo</strong>, Bohan Li, Wanxiang Che</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-other">AI Open 2022</span>
+    <a class="cv-pub-title" href="https://www.sciencedirect.com/science/article/pii/S2666651022000225">Augmented and Challenging Datasets with Multi-step Reasoning and Multi-span Questions for Chinese Judicial Reading Comprehension</a>
+    <div class="cv-pub-authors">Qingye Meng, Ziyue Wang, Hang Chen, <strong>Xianzhen Luo</strong>, Baoxin Wang, Zhipeng Chen, Yiming Cui, Dayong Wu, Zhigang Chen, Shijin Wang</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2510.15004">Automated Snippet-Alignment Data Augmentation for Code Translation</a>
+    <div class="cv-pub-authors">Zhiming Zhang, Qingfu Zhu, <strong>Xianzhen Luo</strong>, Yixuan Wang, Bohan Li, Wanxiang Che</div>
+  </div>
+</div>
+
+<!-- Projects -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-code" style="margin-right:0.4em"></i>PROJECTS</h2>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://huozi.8wss.com">Huozi: An Open-Source Universal LLM</a></strong> <span class="cv-project-meta"><i class="fas fa-code-branch"></i> 12 <i class="fas fa-star"></i> 200</span></span>
+      <span class="cv-entry-right">Mar 2023 &ndash; May 2023</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>Served as a core developer, responsible for the collection and curation of data for code pretraining and post-training.</li>
+      <li>Led the collection and organization of Chinese pretraining datasets.</li>
+    </ul>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://github.com/HIT-SCIR/Abacus">Abacus: A Lightweight Code LLM</a></strong> <span class="cv-project-meta"><i class="fas fa-code-branch"></i> 2 <i class="fas fa-star"></i> 47</span></span>
+      <span class="cv-entry-right">Oct 2023 &ndash; Sep 2024</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>Abacus with 2.7B parameters, outperforms other Code LLMs with parameters &le;3B such as Stable Code-3B and Granite-3B-Code on both coding and general language tasks.</li>
+      <li>Led post-training data construction.</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

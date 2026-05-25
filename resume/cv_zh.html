@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>罗先镇 - 简历</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  @page {
+    size: A4;
+    margin: 0.8cm 1cm;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    font-size: 9pt;
+    line-height: 1.4;
+    color: #2c3e50;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 0.8cm 1cm;
+    background: #fff;
+  }
+
+  a { color: #2980b9; text-decoration: none; transition: color 0.2s; }
+  a:hover { color: #e74c3c; text-decoration: underline; }
+
+  /* ===== Header ===== */
+  .cv-header {
+    text-align: center;
+    padding-bottom: 0.4em;
+    margin-bottom: 0.35em;
+    border-bottom: 2.5px solid #2c3e50;
+  }
+  .cv-name {
+    font-size: 1.8em;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    color: #1a252f;
+    margin-bottom: 0.25em;
+  }
+  .cv-contact {
+    font-size: 0.88em;
+    color: #555;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.2em 1.4em;
+  }
+  .cv-contact i {
+    color: #2980b9;
+    margin-right: 0.25em;
+    width: 1em;
+    text-align: center;
+  }
+
+  /* ===== Section ===== */
+  .cv-section { margin-bottom: 0.35em; }
+  .cv-section-title {
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.12em;
+  }
+
+  /* ===== Entry ===== */
+  .cv-entry {
+    margin-bottom: 0.35em;
+    padding-left: 8px;
+    border-left: 3px solid #3498db;
+  }
+  .cv-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 1.3;
+  }
+  .cv-entry-left { flex: 1; }
+  .cv-entry-right {
+    text-align: right;
+    white-space: nowrap;
+    margin-left: 1em;
+    color: #7f8c8d;
+    font-size: 0.92em;
+  }
+  .cv-entry-details {
+    margin-top: 0.1em;
+    font-size: 0.93em;
+    color: #555;
+  }
+  .cv-highlights {
+    margin: 0.1em 0 0 1em;
+    padding: 0;
+  }
+  .cv-highlights li {
+    margin-bottom: 0.05em;
+    font-size: 0.9em;
+    color: #444;
+  }
+
+  /* ===== Publication ===== */
+  .cv-publication {
+    margin-bottom: 0.25em;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background: #f8f9fa;
+    border-left: 3px solid #dee2e6;
+    line-height: 1.35;
+  }
+  .cv-publication:hover { background: #eef2f7; }
+
+  .cv-pub-title {
+    color: #2c3e50;
+    font-weight: 700;
+    font-size: 0.95em;
+  }
+  .cv-pub-title:hover { color: #2980b9; }
+
+  .cv-pub-authors {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 0px;
+  }
+  .cv-pub-authors strong { color: #1a3a5c; font-weight: 800; }
+
+  /* Venue tags */
+  .cv-pub-venue {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 3px;
+    font-size: 0.78em;
+    font-weight: 700;
+    margin-right: 0.3em;
+    vertical-align: middle;
+    letter-spacing: 0.02em;
+  }
+  .cv-pub-top { background: #fde8e8; color: #c0392b; }
+  .cv-pub-ml { background: #d4edda; color: #1a7a3a; }
+  .cv-pub-other { background: #d1ecf1; color: #0c5460; }
+  .cv-pub-preprint { background: #e9ecef; color: #6c757d; font-style: italic; }
+  .cv-pub-survey { background: #f3e5f5; color: #7b1fa2; }
+
+  /* Special badges */
+  .cv-pub-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.78em;
+    font-weight: 700;
+    margin-right: 0.3em;
+    vertical-align: middle;
+  }
+  .cv-pub-outstanding {
+    background: linear-gradient(135deg, #fff3e0, #fce4ec);
+    color: #bf360c;
+    border: 1.5px solid #e65100;
+    box-shadow: 0 1px 3px rgba(230,81,0,0.15);
+  }
+  .cv-pub-outstanding i { color: #e65100; margin-right: 0.2em; }
+  .cv-pub-outstanding .emoji { margin-right: 0.15em; }
+  .cv-pub-spotlight {
+    background: linear-gradient(135deg, #fffde7, #fff8e1);
+    color: #b8860b;
+    border: 1.5px solid #daa520;
+    box-shadow: 0 1px 3px rgba(218,165,32,0.15);
+  }
+  .cv-pub-oral {
+    background: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #90caf9;
+  }
+
+  /* Highlighted publications */
+  .cv-pub-highlight-outstanding {
+    background: linear-gradient(135deg, #fff8f0, #fff3ea);
+    border-left: 3px solid #e65100;
+  }
+  .cv-pub-highlight-spotlight {
+    background: linear-gradient(135deg, #fffef5, #fffde7);
+    border-left: 3px solid #daa520;
+  }
+  .cv-pub-highlight-oral {
+    background: linear-gradient(135deg, #f0f7ff, #e8f4fd);
+    border-left: 3px solid #1565c0;
+  }
+
+  /* ===== Work-paper tag ===== */
+  .cv-work-paper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.4em;
+    padding: 1px 6px;
+    border-radius: 3px;
+    border: 1px solid #d0d7de;
+    background: #f0f4f8;
+    font-size: 0.75em;
+    line-height: 1.2;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .cv-work-paper:hover { background: #e4eaf0; text-decoration: none; }
+  .cv-work-paper-name { font-weight: 600; color: #2c3e50; font-size: 0.95em; }
+  .cv-work-paper-venue { font-size: 0.85em; color: #888; }
+  .cv-work-paper-venue.wp-pub { font-weight: 700; color: #c0392b; }
+  .cv-work-paper.wp-spotlight {
+    border-color: #daa520;
+    background: linear-gradient(135deg, #fffef5, #fffde7);
+  }
+  .cv-work-paper.wp-outstanding {
+    border-color: #e65100;
+    background: linear-gradient(135deg, #fff8f0, #fff3ea);
+  }
+
+  /* ===== Project ===== */
+  .cv-project-meta {
+    font-size: 0.85em;
+    color: #7f8c8d;
+    margin-left: 0.5em;
+  }
+  .cv-project-meta i { margin: 0 0.1em; }
+
+  /* ===== Footer ===== */
+  .cv-footer {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 0.72em;
+    color: #bbb;
+  }
+
+  /* ===== Print ===== */
+  @media print {
+    body { padding: 0; max-width: none; background: none; }
+    a { color: #2c3e50 !important; }
+    .cv-publication { break-inside: avoid; }
+    .cv-entry { break-inside: avoid; }
+    .cv-work-paper { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .cv-pub-venue, .cv-pub-badge, .cv-section-title,
+    .cv-pub-highlight-outstanding, .cv-pub-highlight-spotlight, .cv-pub-highlight-oral,
+    .wp-spotlight, .wp-outstanding, .wp-pub {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="cv-header">
+  <h1 class="cv-name">罗 先 镇</h1>
+  <div class="cv-contact">
+    <span><i class="fas fa-envelope"></i> <a href="mailto:xzluo@ir.hit.edu.cn">xzluo@ir.hit.edu.cn</a></span>
+    <span><i class="fas fa-phone"></i> (+86) 188 4556 0861</span>
+    <span><i class="fas fa-globe"></i> <a href="https://Luowaterbi.github.io">Luowaterbi.github.io</a></span>
+    <span><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=dK4r-QYAAAAJ&hl=en">Google Scholar</a></span>
+    <span><i class="fab fa-weixin"></i> 15290843908</span>
+  </div>
+</div>
+
+<!-- 教育背景 -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-graduation-cap" style="margin-right:0.4em"></i>教育背景</h2>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://hit.edu.cn">哈尔滨工业大学</a></strong> · 博士研究生 · 代码大模型</span>
+      <span class="cv-entry-right">2022.09 – 至今</span>
+    </div>
+    <div class="cv-entry-details">
+      导师：<a href="http://ir.hit.edu.cn/~car">车万翔 教授</a> · <a href="http://ir.hit.edu.cn/~qfzhu/">朱庆福 副教授</a>
+    </div>
+    <div class="cv-entry-details" style="margin-top:0.15em">
+      荣誉：国家奖学金 · <span class="cv-pub-badge cv-pub-outstanding">🏆 ACL 2025 Outstanding Paper (Top 0.3%)</span> · <span class="cv-pub-badge cv-pub-outstanding">🏆 ICML 2026 Oral (Top 0.7%)</span>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="http://www.hrbeu.edu.cn">哈尔滨工程大学</a></strong> · 本科 · 计算机科学与技术</span>
+      <span class="cv-entry-right">2018.09 – 2022.06</span>
+    </div>
+    <div class="cv-entry-details">
+      荣誉：国家奖学金 · 2 × ICPC 区域赛银牌 · 2 × ICPC EC-Final 铜牌
+    </div>
+  </div>
+</div>
+
+<!-- 工作经历 -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-briefcase" style="margin-right:0.4em"></i>实习经历</h2>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://www.kuaishou.com/">快手科技</a></strong> · <strong>KStar</strong> 研究实习生</span>
+      <span class="cv-entry-right">2025.08 – 2026.03 · 北京</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>针对测试用例质量评估的分数虚高、效率低等问题，将任务转换成<strong>二元矩阵</strong>上的数学问题，系统性回答<strong>评估过程中所需的代码和测试用例数量</strong>，将评测数量收敛到5%。<span class="cv-work-paper"><span class="cv-work-paper-name">TC-Bench</span><span class="cv-work-paper-venue wp-pub">ICLR 2026</span></span></li>
+      <li>从零搭建多智能体框架，<strong>大规模、高效率</strong>构建代码安全<strong>终端环境</strong>。收集、构建、测试和评估全流程自动化，无需人工干预。</li>
+      <li><strong>复现质量达到专家级别</strong>。与专家人工复现结果（10小时+/任务）进行交叉验证，一致率超过95%。支持异步并行，单机20并行在5小时内可生成215个任务。</li>
+      <li>扩展至4k+高质量漏洞修复任务。微调后的Qwen3-32B性能提升5倍，可比肩Minimax-M2.7和Claude Sonnet 4。在TerminalBench和跨语言场景中展现出<strong>强泛化能力</strong>。<span class="cv-work-paper wp-oral"><span class="cv-work-paper-name">CVE-Factory</span><span class="cv-work-paper-venue wp-pub">ICML 2026 Oral</span></span></li>
+    </ul> 
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://www.stepfun.com/">阶跃星辰</a></strong> · 预训练研究实习生</span>
+      <span class="cv-entry-right">2024.12 – 2025.07 · 北京</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>从零开发并清洗<strong>全量GitHub文件</strong>和Issue数据。进一步优化过滤规则以去除乱码文本，显著减少loss spike。在代码数据上进行了FIM、Meta Info、MTP和Focal Loss策略的实验。<span class="cv-work-paper"><span class="cv-work-paper-name">Step-3</span><span class="cv-work-paper-venue">Tech Report</span></span></li>
+      <li>探索并验证了代码的<strong>Scaling Law</strong>。在特定约束下，<strong>预测误差低于0.1%</strong>。<span class="cv-work-paper"><span class="cv-work-paper-name">Code Scaling Laws</span><span class="cv-work-paper-venue wp-pub">ACL 2026</span></span></li>
+      <li>发现了代码<strong>压缩率</strong>与下游<strong>代码任务性能</strong>之间的<strong>对数</strong>关系。<span class="cv-work-paper"><span class="cv-work-paper-name">Code Compression</span><span class="cv-work-paper-venue">Arxiv</span></span></li>
+    </ul>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://github.com/Duxiaoman-DI">度小满</a></strong> · 校企合作研究员</span>
+      <span class="cv-entry-right">2023.11 – 2024.09 · 北京</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>从<strong>正确性</strong>和<strong>细节敏感性</strong>的角度合成代码SFT数据，在小模型上达到SOTA。<span class="cv-work-paper"><span class="cv-work-paper-name">Semi-Instruct</span><span class="cv-work-paper-venue">Arxiv 2024</span></span> <span class="cv-work-paper"><span class="cv-work-paper-name">CTF-Instruct</span><span class="cv-work-paper-venue">Arxiv 2025</span></span></li>
+      <li>利用<strong>多编程语言</strong>辅助推理，在多个基准和模型上取得一致提升。<span class="cv-work-paper"><span class="cv-work-paper-name">MultiPoT</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></li>
+      <li>提出噪声训练框架，通过去噪任务<strong>激活LLM的并行解码能力</strong>，在保持任务性能的同时实现2倍加速。<span class="cv-work-paper"><span class="cv-work-paper-name">Make Some Noise</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></li>
+      <li>利用LLM解码的词表分布，<strong>仅需2MB额外存储即可实现2倍无损加速</strong>，超越此前的免训练推测解码方法30%以上。<span class="cv-work-paper wp-outstanding"><span class="cv-work-paper-name">Token Recycling</span><span class="cv-work-paper-venue wp-pub">ACL 2025 Outstanding</span></span></li>
+    </ul>
+  </div>
+</div>
+
+<!-- 一作论文 -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-file-alt" style="margin-right:0.4em"></i>一作论文</h2>
+
+  <div class="cv-publication cv-pub-highlight-oral">
+    <span class="cv-pub-badge cv-pub-outstanding">🏆 ICML 2026 Oral</span>
+    <a class="cv-pub-title" href="https://github.com/livecvebench/CVE-Factory/blob/main/docs/paper.pdf">CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</a>
+    <div class="cv-pub-authors"><strong>罗先镇</strong>, 张景远, 周士祺, 黄金阳, 肖川, 朱庆福, 马志远, 岳星, 岳洋, 曾文聪, 车万翔</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2026</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2510.08702">Scaling Laws for Code: A More Data-Hungry Regime</a>
+    <div class="cv-pub-authors"><strong>罗先镇<sup>*</sup></strong>, 郑文镇<sup>*</sup>, 朱庆福, 张荣燚, 李厚意, 黄思明, 范元涛, 车万翔</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-ml">ICLR 2026</span>
+    <a class="cv-pub-title" href="https://openreview.net/forum?id=RomWar2kVN">How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective</a>
+    <div class="cv-pub-authors"><strong>罗先镇<sup>*</sup></strong>, 黄金阳<sup>*</sup>, 郑文镇, 朱庆福, 徐明拯, 徐逸恒, 范元涛, 覃立波, 车万翔</div>
+  </div>
+
+  <div class="cv-publication cv-pub-highlight-outstanding">
+    <span class="cv-pub-badge cv-pub-outstanding">🏆 ACL 2025 Outstanding Paper</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2025.acl-long.338/">Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling</a>
+    <div class="cv-pub-authors"><strong>罗先镇</strong>, 王一轩, 朱庆福, 张致铭, 张玄昱, 杨青, 许冬亮</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2025</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2025.acl-long.363/">ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation</a>
+    <div class="cv-pub-authors">赵烜乐<sup>*</sup>, <strong>罗先镇<sup>*</sup></strong>, 施琦, 陈驰, 王硕, 车万翔, 刘知远, 孙茂松</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">EMNLP 2024</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2024.emnlp-main.408/">Python is Not Always the Best Choice: Embracing Multilingual Program of Thoughts</a>
+    <div class="cv-pub-authors"><strong>罗先镇</strong>, 朱庆福, 张致铭, 覃立波, 张玄昱, 杨青, 许冬亮, 车万翔</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">EMNLP 2024</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2024.emnlp-main.718/">Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training</a>
+    <div class="cv-pub-authors">王一轩<sup>*</sup>, <strong>罗先镇<sup>*</sup></strong>, 魏福烜, 刘议骏, 朱庆福, 张玄昱, 杨青, 许冬亮, 车万翔</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.11441">Is Compression Really Linear with Code Intelligence?</a>
+    <div class="cv-pub-authors">徐杨世杰<sup>*</sup>, <strong>罗先镇<sup>*</sup></strong>, 初征, 李厚意, 黄思明, 王秋锋, 车万翔, 朱庆福, 周水庚</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.14597">Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals</a>
+    <div class="cv-pub-authors"><strong>罗先镇</strong>, 朱庆福, 张致铭, 徐明拯, 程天豪, 王一轩, 初征, 徐杨世杰, 马志远, 范元涛, 车万翔</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2403.00338">Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models</a>
+    <div class="cv-pub-authors"><strong>罗先镇</strong>, 朱庆福, 张致铭, 王旭, 杨青, 许冬亮, 车万翔</div>
+  </div>
+</div>
+
+<!-- 其他论文 -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-book" style="margin-right:0.4em"></i>其他论文</h2>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-ml">ICML 2026</span>
+    <a class="cv-pub-title">Memoria-Bench: A Comprehensive Benchmark for Evaluating Memory in Long-Horizon Autonomous Agents</a>
+    <div class="cv-pub-authors">王秋锋, ..., 黄思明, <strong>罗先镇</strong>, ..., 张前文</div>
+  </div>
+
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2026 (Findings)</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2506.23133">Format-Adapter: Improving Reasoning Capability of LLMs by Adapting Suitable Format</a>
+    <div class="cv-pub-authors">王丁子睿, 张玄靓, 曹荣禹, 窦隆绪, <strong>罗先镇</strong>, 马迎伟, 朱庆福, 车万翔, 黎槟华, 黄飞, 李永彬</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-survey">Survey</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2511.18538">From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence</a>
+    <div class="cv-pub-authors"><strong>核心贡献者</strong></div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-survey">Tech Report</span>
+    <a class="cv-pub-title" href="https://stepfun.ai/research/en/step3">Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding</a>
+    <div class="cv-pub-authors"><strong>核心贡献者</strong></div>
+  </div>
+
+  <div class="cv-publication cv-pub-highlight-oral">
+    <span class="cv-pub-venue cv-pub-top">ACL 2025</span> <span class="cv-pub-badge cv-pub-oral">📢 Oral</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2025.acl-long.1591/">OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models</a>
+    <div class="cv-pub-authors">黄思明, 程天豪, ..., <strong>罗先镇</strong>, ..., 汪自力</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-ml">KDD 2025</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2506.04625">Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning</a>
+    <div class="cv-pub-authors">马志远, 刘嘉聿, <strong>罗先镇</strong>, 黄振亚, 朱庆福, 车万翔</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2025 (Findings)</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2025.findings-acl.185/">ChartEdit: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs' Capability via Chart Editing</a>
+    <div class="cv-pub-authors">赵烜乐<sup>*</sup>, 刘学鑫<sup>*</sup>, 杨昊玥<sup>*</sup>, <strong>罗先镇</strong>, 曾繁虎, 李建玲, 施琦, 陈驰</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-other">COLING 2024</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2024.lrec-main.149/">A Survey on Natural Language Processing for Programming</a>
+    <div class="cv-pub-authors">朱庆福, <strong>罗先镇</strong>, 刘芳, 高翠芸, 车万翔</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-top">ACL 2022 (Findings)</span>
+    <a class="cv-pub-title" href="https://aclanthology.org/2022.findings-acl.53/">Inverse is Better! Fast and Accurate Prompt for Few-shot Slot Tagging</a>
+    <div class="cv-pub-authors">侯宇泰, 陈成, <strong>罗先镇</strong>, 李博涵, 车万翔</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-other">AI Open 2022</span>
+    <a class="cv-pub-title" href="https://www.sciencedirect.com/science/article/pii/S2666651022000225">Augmented and Challenging Datasets with Multi-step Reasoning and Multi-span Questions for Chinese Judicial Reading Comprehension</a>
+    <div class="cv-pub-authors">孟庆烨, 王梓岳, 陈航, <strong>罗先镇</strong>, 王宝鑫, 陈志鹏, 崔一鸣, 吴大勇, 陈志刚, 王士进</div>
+  </div>
+
+  <div class="cv-publication">
+    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2510.15004">Automated Snippet-Alignment Data Augmentation for Code Translation</a>
+    <div class="cv-pub-authors">张致铭, 朱庆福, <strong>罗先镇</strong>, 王一轩, 李博涵, 车万翔</div>
+  </div>
+</div>
+
+<!-- 项目经历 -->
+<div class="cv-section">
+  <h2 class="cv-section-title"><i class="fas fa-code" style="margin-right:0.4em"></i>项目经历</h2>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://huozi.8wss.com">活字：开源通用大语言模型</a></strong> <span class="cv-project-meta"><i class="fas fa-code-branch"></i> 12 <i class="fas fa-star"></i> 200</span></span>
+      <span class="cv-entry-right">2023.03 – 2023.05</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>作为核心开发者，负责代码预训练和后训练数据的收集与整理。</li>
+      <li>主导中文预训练数据集的收集和组织工作。</li>
+    </ul>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://github.com/HIT-SCIR/Abacus">Abacus：轻量级代码大语言模型</a></strong> <span class="cv-project-meta"><i class="fas fa-code-branch"></i> 2 <i class="fas fa-star"></i> 47</span></span>
+      <span class="cv-entry-right">2023.10 – 2024.09</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>Abacus拥有27亿参数，在编程和通用语言任务上均优于Stable Code-3B和Granite-3B-Code等30亿参数以下的代码大模型。</li>
+      <li>主导后训练数据构建。</li>
+    </ul>
+  </div>
+</div>
+
+
+</body>
+</html>
