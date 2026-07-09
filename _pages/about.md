@@ -105,6 +105,10 @@ I am graduating between <span style="color: #e65100; font-weight: bold;">Dec 202
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
+- *2026.04 - now*, **Top Talent Intern**, [MiniMax](https://www.minimax.io/), China.
+  - **Research Focus**: Cyber Coder for next-generation SWE agents.
+  - **Key Contributions**: Own the algorithmic development of Cyber Coder, spanning CPT, PostTrain, and cybersecurity-focused model capability iteration.
+
 - *2025.08 - 2026.3*, **KStar Research Intern**, [Kuaishou Technology](https://www.kuaishou.com/), China.
   - **Adviser**: [Jingyuan Zhang](https://scholar.google.com/citations?user=pdj-Em0AAAAJ&hl=zh-CN&oi=ao)
   - **Research Focus**: Scaling environments for code agents.
