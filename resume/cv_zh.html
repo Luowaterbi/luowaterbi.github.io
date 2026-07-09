@@ -241,6 +241,7 @@
   @media print {
     body { padding: 0; max-width: none; background: none; }
     a { color: #2c3e50 !important; }
+    .cv-section-title { break-after: avoid; }
     .cv-publication { break-inside: avoid; }
     .cv-entry { break-inside: avoid; }
     .cv-work-paper { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
@@ -301,6 +302,16 @@
 
   <div class="cv-entry">
     <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://www.minimax.io/">MiniMax</a></strong> · <strong>Top Talent</strong> 实习生</span>
+      <span class="cv-entry-right">2026.04 – 至今 · 北京</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>负责 Cyber Coder 的算法方向，围绕代码安全与下一代 SWE 场景，推进 <strong>CPT</strong>、<strong>PostTrain</strong> 及模型能力迭代。</li>
+    </ul>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
       <span class="cv-entry-left"><strong><a href="https://www.kuaishou.com/">快手科技</a></strong> · <strong>KStar</strong> 研究实习生</span>
       <span class="cv-entry-right">2025.08 – 2026.03 · 北京</span>
     </div>
@@ -344,7 +355,7 @@
 
   <div class="cv-publication cv-pub-highlight-oral">
     <span class="cv-pub-badge cv-pub-outstanding">🏆 ICML 2026 Oral</span>
-    <a class="cv-pub-title" href="https://github.com/livecvebench/CVE-Factory/blob/main/docs/paper.pdf">CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</a>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2602.03012">CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</a>
     <div class="cv-pub-authors"><strong>罗先镇</strong>, 张景远, 周士祺, 黄金阳, 肖川, 朱庆福, 马志远, 岳星, 岳洋, 曾文聪, 车万翔</div>
   </div>
 
@@ -478,6 +489,17 @@
 <!-- 项目经历 -->
 <div class="cv-section">
   <h2 class="cv-section-title"><i class="fas fa-code" style="margin-right:0.4em"></i>项目经历</h2>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-entry-left"><strong><a href="https://arxiv.org/abs/2602.03012">CVE-Factory：漏洞环境大规模合成框架</a></strong> <span class="cv-project-meta"><i class="fas fa-code-branch"></i> 3 <i class="fas fa-star"></i> 117</span></span>
+      <span class="cv-entry-right">2026.10 – 至今</span>
+    </div>
+    <ul class="cv-highlights">
+      <li>独立开发 Multi-Agent 环境合成框架，支持宿主机多种子并行异步生成，全流程自动化。</li>
+      <li>复现约 4k 漏洞环境，与专家人工复现交叉验证一致率超 95%。代码、数据与模型全部开源。</li>
+    </ul>
+  </div>
 
   <div class="cv-entry">
     <div class="cv-entry-header">
