@@ -46,6 +46,7 @@ I am graduating between <span style="color: #e65100; font-weight: bold;">Dec 202
 # 📝 Publications
 
 ## Pretrain
+- <span class="tech-report-tag">Tech Report</span> [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence](https://arxiv.org/abs/2605.26494), Aili Chen, Aonian Li, ..., **Xianzhen Luo**, ...
 - <span class="conference-tag">ACL 2026</span> [Scaling Laws for Code: A More Data-Hungry Regime](https://arxiv.org/abs/2510.08702), **Xianzhen Luo<sup>†</sup>**, Wenzhen Zheng<sup>†</sup>, Qingfu Zhu, Rongyi Zhang, Houyi Li, Siming Huang, Yuantao Fan, Wanxiang Che.
 - <span class="conference-tag">ACL 2025</span> <span class="oral-tag">Oral</span> [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](https://aclanthology.org/2025.acl-long.1591/), Siming Huang, Tianhao Cheng, Jason Klein Liu, Weidi Xu, JIARAN HAO, Liuyihan Song, Yang Xu, Jian Yang, Jiaheng Liu, Chenchen Zhang, Linzheng Chai, Ruifeng Yuan, **Xianzhen Luo**, Qiufeng Wang, YuanTao Fan, Qingfu Zhu, Zhaoxiang Zhang, Yang Gao, Jie Fu, Qian Liu, Houyi Li, Ge Zhang, Yuan Qi, Xu Yinghui, Wei Chu, Zili Wang.
 - <span class="tech-report-tag">Tech Report</span> [Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding](https://stepfun.ai/research/en/step3), **Core Contributor**.
@@ -107,7 +108,7 @@ I am graduating between <span style="color: #e65100; font-weight: bold;">Dec 202
 # 💻 Internships
 - *2026.04 - now*, **Top Talent Intern**, [MiniMax](https://www.minimax.io/), China.
   - **Research Focus**: Cyber Coder for next-generation SWE agents.
-  - **Key Contributions**: Own the algorithmic development of Cyber Coder, spanning CPT, PostTrain, and cybersecurity-focused model capability iteration.
+  - **Key Contributions**: Built scalable, verifiable pipelines for vulnerability-repair and PoC-generation environments, plus a unified multi-source vulnerability workflow supporting model training and evaluation.
 
 - *2025.08 - 2026.3*, **KStar Research Intern**, [Kuaishou Technology](https://www.kuaishou.com/), China.
   - **Adviser**: [Jingyuan Zhang](https://scholar.google.com/citations?user=pdj-Em0AAAAJ&hl=zh-CN&oi=ao)
