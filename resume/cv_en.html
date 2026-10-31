@@ -195,18 +195,22 @@
   /* ===== Work-paper tag ===== */
   .cv-work-paper {
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin-left: 0.4em;
-    padding: 1px 6px;
-    border-radius: 3px;
+    gap: 0.24em;
+    margin-left: 0.3em;
+    padding: 0 3px;
+    border-radius: 2px;
     border: 1px solid #d0d7de;
     background: #f0f4f8;
-    font-size: 0.75em;
-    line-height: 1.2;
-    vertical-align: middle;
+    font-size: 0.74em;
+    line-height: 1.15;
+    white-space: nowrap;
+    vertical-align: baseline;
     text-decoration: none;
   }
+  .cv-paper-tail { white-space: nowrap; }
+  .cv-work-paper-venue::before { content: '·'; color: #80909e; margin-right: 0.24em; }
   .cv-work-paper:hover { background: #e4eaf0; text-decoration: none; }
   .cv-work-paper-name { font-weight: 600; color: #2c3e50; font-size: 0.95em; }
   .cv-work-paper-venue { font-size: 0.85em; color: #888; }
@@ -308,9 +312,10 @@
       <span class="cv-entry-right">Apr 2026 &ndash; Present &middot; Beijing</span>
     </div>
     <ul class="cv-highlights">
-      <li>Integrated <strong>CVE-Factory</strong> into MiniMax's infrastructure, synthesized <strong>3K executable vulnerability-repair environments</strong>, and trained M3 to outperform Claude Sonnet 4.6, Kimi K2.6, GLM-5.1, and DeepSeek-V4-Pro on <strong>LiveCVEBench and PatchEval</strong>.</li>
-      <li>Built a <strong>CyberGym data synthesis pipeline</strong> that produced <strong>4K verifiable environments</strong>; trained M3 to improve its CyberGym score from <strong>10 to 50</strong>, approaching <strong>80</strong> with an agent harness.</li>
-      <li>Built a unified vulnerability data pipeline that standardized multi-source vulnerabilities around an atomic capability taxonomy, generating analysis reports for <strong>CPT</strong> and routing vulnerabilities to capability-specific <strong>PostTrain</strong> pipelines. CPT experiments significantly improved <strong>code reasoning and security capabilities</strong> while preserving performance on most general code benchmarks.</li>
+      <li>Responsible for <strong>MiniMax-M3’s Cyber capabilities</strong>, covering <strong>environment scaling, continued pretraining (CPT), and post-training</strong>.</li>
+      <li>Built a pipeline that converts <strong>multi-source vulnerability data into structured analysis reports for CPT</strong>. CPT experiments improved <strong>code reasoning and security capabilities</strong> while preserving performance on most general coding benchmarks.</li>
+      <li>Built <strong>4K PoC-generation training tasks</strong>, improving M3’s <strong>CyberGym score from 10 to 60</strong>, approaching <strong>80</strong> with an agent harness. M3 outperformed <strong>Kimi K2.6 and DeepSeek-V4-Pro</strong> on the <a href="https://www.vals.ai/benchmarks/cyber"><strong>Vals CyberBench overall leaderboard</strong></a>.</li>
+      <li>Built <strong>3K executable environments with CVE-Factory</strong> to train <strong>vulnerability discovery and repair</strong>. M3 outperformed <strong>Claude Sonnet 4.6, Kimi K2.6, GLM-5.1, and DeepSeek-V4-Pro</strong> on internal <strong>PatchEval</strong> evaluations, and <strong>DeepSeek-V4-Pro, HY-3, Claude Opus 4.8, and GPT-5.5</strong> on <a href="https://workbuddybench.com/"><strong>WorkBuddy Bench Security</strong></a> under CodeBuddy Code.</li>
     </ul>
   </div>
 
@@ -320,10 +325,10 @@
       <span class="cv-entry-right">Aug 2025 &ndash; Mar 2026 &middot; Beijing</span>
     </div>
     <ul class="cv-highlights">
-      <li>Addressed inflated scores and inefficiency in test case quality evaluation by formulating it as a mathematical problem on a <strong>binary matrix, systematically determining the number of code solutions and test cases needed</strong>, converging the evaluation count to 5%.<span class="cv-work-paper"><span class="cv-work-paper-name">TC-Bench</span><span class="cv-work-paper-venue wp-pub">ICLR 2026</span></span></li>
+      <li>Addressed inflated scores and inefficiency in test case quality evaluation by formulating it as a mathematical problem on a <strong>binary matrix, systematically determining the number of code solutions and test cases needed</strong>, converging the evaluation count to <span class="cv-paper-tail">5%.<span class="cv-work-paper"><span class="cv-work-paper-name">TC-Bench</span><span class="cv-work-paper-venue wp-pub">ICLR 2026</span></span></span></li>
       <li>Developed a Multi-Agent Framework from scratch to scale <strong>terminal environments</strong> for code security at <strong>large scale and high efficiency</strong>. Fully automated collection, construction, testing, and evaluation without human intervention.</li>
       <li><strong>Reproduction quality matches expert level</strong>. Cross-validated with expert manual reproduction (10+ hours/task), achieving over 95% consistency. Supports asynchronous parallelism, generating 215 tasks in under 5 hours with 20 parallel on a single machine.</li>
-      <li>Scaled to 4k+ high-quality vulnerability repair tasks. The performance of finetuned Qwen3-32B improved 5x, comparable to Minimax-M2.7 and Claude Sonnet 4. Demonstrated <strong>strong generalization</strong> on TerminalBench and cross-language settings.<span class="cv-work-paper wp-oral"><span class="cv-work-paper-name">CVE-Factory</span><span class="cv-work-paper-venue wp-pub">ICML 2026 Oral</span></span></li>
+      <li>Scaled to 4k+ high-quality vulnerability repair tasks. The performance of finetuned Qwen3-32B improved 5x, comparable to Minimax-M2.7 and Claude Sonnet 4. Demonstrated <strong>strong generalization</strong> on TerminalBench and cross-language <span class="cv-paper-tail">settings.<span class="cv-work-paper wp-oral"><span class="cv-work-paper-name">CVE-Factory</span><span class="cv-work-paper-venue wp-pub">ICML 2026 Oral</span></span></span></li>
     </ul>
   </div>
 
@@ -333,9 +338,9 @@
       <span class="cv-entry-right">Dec 2024 &ndash; Jul 2025 &middot; Beijing</span>
     </div>
     <ul class="cv-highlights">
-      <li>Developed and cleaned <strong>full-scale GitHub file</strong> &amp; issue data from scratch. Further refined filter rules to remove garbled text, significantly reducing loss spikes. Conducted experiments on code data with FIM, Meta Info, MTP, and Focal Loss strategies.<span class="cv-work-paper"><span class="cv-work-paper-name">Step-3</span><span class="cv-work-paper-venue">Tech Report</span></span></li>
-      <li>Explored and validated <strong>Scaling Laws for Code</strong>. Under certain constraints, <strong>prediction error was less than 0.1%</strong>.<span class="cv-work-paper"><span class="cv-work-paper-name">Code Scaling Laws</span><span class="cv-work-paper-venue wp-pub">ACL 2026</span></span></li>
-      <li>Discovered a <strong>logarithmic</strong> relationship between code <strong>compression ratio</strong> and downstream <strong>code task performance</strong>.<span class="cv-work-paper"><span class="cv-work-paper-name">Code Compression</span><span class="cv-work-paper-venue">Arxiv</span></span></li>
+      <li>Developed and cleaned <strong>full-scale GitHub file</strong> &amp; issue data from scratch. Further refined filter rules to remove garbled text, significantly reducing loss spikes. Conducted experiments on code data with FIM, Meta Info, MTP, and Focal Loss <span class="cv-paper-tail">strategies.<span class="cv-work-paper"><span class="cv-work-paper-name">Step-3</span><span class="cv-work-paper-venue">Tech Report</span></span></span></li>
+      <li>Explored and validated <strong>Scaling Laws for Code</strong>. Under certain constraints, <span class="cv-paper-tail"><strong>prediction error was less than 0.1%</strong>.<span class="cv-work-paper"><span class="cv-work-paper-name">Code Scaling Laws</span><span class="cv-work-paper-venue wp-pub">ACL 2026</span></span></span></li>
+      <li>Discovered a <strong>logarithmic</strong> relationship between code <strong>compression ratio</strong> and downstream <span class="cv-paper-tail"><strong>code task performance</strong>.<span class="cv-work-paper"><span class="cv-work-paper-name">Code Compression</span><span class="cv-work-paper-venue">Arxiv</span></span></span></li>
     </ul>
   </div>
 
@@ -345,10 +350,10 @@
       <span class="cv-entry-right">Nov 2023 &ndash; Sep 2024 &middot; Beijing</span>
     </div>
     <ul class="cv-highlights">
-      <li>Synthesized code SFT data from the perspectives of <strong>correctness</strong> and <strong>detail sensitivity</strong>, achieving SOTA on small LLMs.<span class="cv-work-paper"><span class="cv-work-paper-name">Semi-Instruct</span><span class="cv-work-paper-venue">Arxiv 2024</span></span> <span class="cv-work-paper"><span class="cv-work-paper-name">CTF-Instruct</span><span class="cv-work-paper-venue">Arxiv 2025</span></span></li>
-      <li>Leveraged <strong>multilingual programming languages</strong> to assist reasoning, yielding consistent improvements across benchmarks and LLMs.<span class="cv-work-paper"><span class="cv-work-paper-name">MultiPoT</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></li>
-      <li>Proposed a noisy training framework that <strong>unlocks parallel decoding capability of LLMs</strong> through denoising tasks, achieving 2x speedup while preserving task performance.<span class="cv-work-paper"><span class="cv-work-paper-name">Make Some Noise</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></li>
-      <li>Achieved <strong>2x lossless acceleration with only 2MB extra storage</strong> by exploiting vocabulary distributions from LLM decoding, outperforming prior train-free speculative decoding methods by over 30%.<span class="cv-work-paper wp-outstanding"><span class="cv-work-paper-name">Token Recycling</span><span class="cv-work-paper-venue wp-pub">ACL 2025 Outstanding</span></span></li>
+      <li>Achieved <strong>SOTA on small LLMs</strong> with code SFT targeting <span class="cv-paper-tail"><strong>correctness and detail sensitivity</strong>.<span class="cv-work-paper"><span class="cv-work-paper-name">Semi-Instruct</span><span class="cv-work-paper-venue">Arxiv 2024</span></span> <span class="cv-work-paper"><span class="cv-work-paper-name">CTF-Instruct</span><span class="cv-work-paper-venue wp-pub">Data Intelligence (CCL 2026)</span></span></span></li>
+      <li>Improved reasoning across LLMs and benchmarks through <span class="cv-paper-tail"><strong>multilingual Program-of-Thoughts</strong>.<span class="cv-work-paper"><span class="cv-work-paper-name">MultiPoT</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></span></li>
+      <li>Proposed a noisy training framework that <strong>unlocks parallel decoding capability of LLMs</strong> through denoising tasks, achieving 2x speedup while preserving task <span class="cv-paper-tail">performance.<span class="cv-work-paper"><span class="cv-work-paper-name">Make Some Noise</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></span></li>
+      <li>Achieved <strong>2x lossless acceleration with only 2MB extra storage</strong> by exploiting vocabulary distributions from LLM decoding, outperforming prior train-free speculative decoding methods by over <span class="cv-paper-tail">30%.<span class="cv-work-paper wp-outstanding"><span class="cv-work-paper-name">Token Recycling</span><span class="cv-work-paper-venue wp-pub">ACL 2025 Outstanding</span></span></span></li>
     </ul>
   </div>
 </div>
@@ -400,15 +405,15 @@
   </div>
 
   <div class="cv-publication">
-    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
-    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.11441">Is Compression Really Linear with Code Intelligence?</a>
-    <div class="cv-pub-authors">Shijie Xuyang<sup>*</sup>, <strong>Xianzhen Luo<sup>*</sup></strong>, Zheng Chu, Houyi Li, Siming Huang, Qiufeng Wang, Wanxiang Che, Qingfu Zhu, Shuigeng Zhou</div>
+    <span class="cv-pub-venue cv-pub-other">Data Intelligence (CCL 2026)</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.14597">Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals</a>
+    <div class="cv-pub-authors"><strong>Xianzhen Luo</strong>, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Yixuan Wang, Zhiyuan Ma, Wanxiang Che</div>
   </div>
 
   <div class="cv-publication">
     <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
-    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.14597">Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals</a>
-    <div class="cv-pub-authors"><strong>Xianzhen Luo</strong>, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che</div>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.11441">Is Compression Really Linear with Code Intelligence?</a>
+    <div class="cv-pub-authors">Shijie Xuyang<sup>*</sup>, <strong>Xianzhen Luo<sup>*</sup></strong>, Zheng Chu, Houyi Li, Siming Huang, Qiufeng Wang, Wanxiang Che, Qingfu Zhu, Shuigeng Zhou</div>
   </div>
 
   <div class="cv-publication">

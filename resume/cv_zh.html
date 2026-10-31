@@ -196,18 +196,22 @@
   /* ===== Work-paper tag ===== */
   .cv-work-paper {
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin-left: 0.4em;
-    padding: 1px 6px;
-    border-radius: 3px;
+    gap: 0.24em;
+    margin-left: 0.3em;
+    padding: 0 3px;
+    border-radius: 2px;
     border: 1px solid #d0d7de;
     background: #f0f4f8;
-    font-size: 0.75em;
-    line-height: 1.2;
-    vertical-align: middle;
+    font-size: 0.74em;
+    line-height: 1.15;
+    white-space: nowrap;
+    vertical-align: baseline;
     text-decoration: none;
   }
+  .cv-paper-tail { white-space: nowrap; }
+  .cv-work-paper-venue::before { content: '·'; color: #80909e; margin-right: 0.24em; }
   .cv-work-paper:hover { background: #e4eaf0; text-decoration: none; }
   .cv-work-paper-name { font-weight: 600; color: #2c3e50; font-size: 0.95em; }
   .cv-work-paper-venue { font-size: 0.85em; color: #888; }
@@ -306,9 +310,10 @@
       <span class="cv-entry-right">2026.04 – 至今 · 北京</span>
     </div>
     <ul class="cv-highlights">
-      <li>将 <strong>CVE-Factory</strong> 接入公司基建，合成 <strong>3K 可执行漏洞修复环境</strong>并训练 M3，使其在 <strong>LiveCVEBench、PatchEval</strong> 上超过 Claude Sonnet 4.6、Kimi K2.6、GLM-5.1 和 DeepSeek-V4-Pro。</li>
-      <li>搭建 <strong>CyberGym 数据合成管线</strong>，合成 <strong>4K 可验证环境</strong>并训练 M3，将 CyberGym 得分从 <strong>10 提升至 50</strong>，结合 agent harness 后接近 <strong>80</strong>。</li>
-      <li>搭建统一漏洞数据管线，基于原子能力体系标准化多源漏洞，生成漏洞分析报告用于 <strong>CPT</strong>，并按能力路由合成 <strong>PostTrain</strong> 数据；CPT 实验在大部分通用代码指标保持稳定的同时，显著提升了<strong>代码推理与安全能力</strong>。</li>
+      <li>负责 <strong>MiniMax-M3 的 Cyber 能力</strong>，涵盖<strong>环境规模化、继续预训练（CPT）与后训练</strong>。</li>
+      <li>搭建数据管线，将<strong>多源漏洞数据转化为结构化分析报告，用于 CPT</strong>；实验结果显示通用代码基准表现保持稳定，并提升了<strong>代码推理与安全能力</strong>。</li>
+      <li>构建 <strong>4K PoC 生成训练任务</strong>，将 M3 的 <strong>CyberGym 得分从 10 提升至 60</strong>，结合 agent harness 后接近 <strong>80</strong>；M3 在 <a href="https://www.vals.ai/benchmarks/cyber"><strong>Vals CyberBench 综合榜单</strong></a>上超过 <strong>Kimi K2.6 和 DeepSeek-V4-Pro</strong>。</li>
+      <li>利用 <strong>CVE-Factory 构建 3K 可执行环境</strong>，训练<strong>漏洞挖掘与修复能力</strong>；M3 在内部 <strong>PatchEval</strong> 评测中超过 <strong>Claude Sonnet 4.6、Kimi K2.6、GLM-5.1 和 DeepSeek-V4-Pro</strong>，在 <a href="https://workbuddybench.com/"><strong>WorkBuddy Bench Security</strong></a>（CodeBuddy Code）上超过 <strong>DeepSeek-V4-Pro、HY-3、Claude Opus 4.8 和 GPT-5.5</strong>。</li>
     </ul>
   </div>
 
@@ -318,10 +323,10 @@
       <span class="cv-entry-right">2025.08 – 2026.03 · 北京</span>
     </div>
     <ul class="cv-highlights">
-      <li>针对测试用例质量评估的分数虚高、效率低等问题，将任务转换成<strong>二元矩阵</strong>上的数学问题，系统性回答<strong>评估过程中所需的代码和测试用例数量</strong>，将评测数量收敛到5%。<span class="cv-work-paper"><span class="cv-work-paper-name">TC-Bench</span><span class="cv-work-paper-venue wp-pub">ICLR 2026</span></span></li>
+      <li>针对测试用例质量评估的分数虚高、效率低等问题，将任务转换成<strong>二元矩阵</strong>上的数学问题，系统性回答<strong>评估过程中所需的代码和测试用例数量</strong>，将评测数量收敛到<span class="cv-paper-tail">5%。<span class="cv-work-paper"><span class="cv-work-paper-name">TC-Bench</span><span class="cv-work-paper-venue wp-pub">ICLR 2026</span></span></span></li>
       <li>从零搭建多智能体框架，<strong>大规模、高效率</strong>构建代码安全<strong>终端环境</strong>。收集、构建、测试和评估全流程自动化，无需人工干预。</li>
       <li><strong>复现质量达到专家级别</strong>。与专家人工复现结果（10小时+/任务）进行交叉验证，一致率超过95%。支持异步并行，单机20并行在5小时内可生成215个任务。</li>
-      <li>扩展至4k+高质量漏洞修复任务。微调后的Qwen3-32B性能提升5倍，可比肩Minimax-M2.7和Claude Sonnet 4。在TerminalBench和跨语言场景中展现出<strong>强泛化能力</strong>。<span class="cv-work-paper wp-oral"><span class="cv-work-paper-name">CVE-Factory</span><span class="cv-work-paper-venue wp-pub">ICML 2026 Oral</span></span></li>
+      <li>扩展至4k+高质量漏洞修复任务。微调后的Qwen3-32B性能提升5倍，可比肩Minimax-M2.7和Claude Sonnet 4。在TerminalBench和跨语言场景中展现出<span class="cv-paper-tail"><strong>强泛化能力</strong>。<span class="cv-work-paper wp-oral"><span class="cv-work-paper-name">CVE-Factory</span><span class="cv-work-paper-venue wp-pub">ICML 2026 Oral</span></span></span></li>
     </ul> 
   </div>
 
@@ -331,9 +336,9 @@
       <span class="cv-entry-right">2024.12 – 2025.07 · 北京</span>
     </div>
     <ul class="cv-highlights">
-      <li>从零开发并清洗<strong>全量GitHub文件</strong>和Issue数据。进一步优化过滤规则以去除乱码文本，显著减少loss spike。在代码数据上进行了FIM、Meta Info、MTP和Focal Loss策略的实验。<span class="cv-work-paper"><span class="cv-work-paper-name">Step-3</span><span class="cv-work-paper-venue">Tech Report</span></span></li>
-      <li>探索并验证了代码的<strong>Scaling Law</strong>。在特定约束下，<strong>预测误差低于0.1%</strong>。<span class="cv-work-paper"><span class="cv-work-paper-name">Code Scaling Laws</span><span class="cv-work-paper-venue wp-pub">ACL 2026</span></span></li>
-      <li>发现了代码<strong>压缩率</strong>与下游<strong>代码任务性能</strong>之间的<strong>对数</strong>关系。<span class="cv-work-paper"><span class="cv-work-paper-name">Code Compression</span><span class="cv-work-paper-venue">Arxiv</span></span></li>
+      <li>从零开发并清洗<strong>全量GitHub文件</strong>和Issue数据。进一步优化过滤规则以去除乱码文本，显著减少loss spike。在代码数据上进行了FIM、Meta Info、MTP和Focal Loss策略的实<span class="cv-paper-tail">验。<span class="cv-work-paper"><span class="cv-work-paper-name">Step-3</span><span class="cv-work-paper-venue">Tech Report</span></span></span></li>
+      <li>探索并验证了代码的<strong>Scaling Law</strong>。在特定约束下，<span class="cv-paper-tail"><strong>预测误差低于0.1%</strong>。<span class="cv-work-paper"><span class="cv-work-paper-name">Code Scaling Laws</span><span class="cv-work-paper-venue wp-pub">ACL 2026</span></span></span></li>
+      <li>发现了代码<strong>压缩率</strong>与下游<strong>代码任务性能</strong>之间的<strong>对数</strong>关<span class="cv-paper-tail">系。<span class="cv-work-paper"><span class="cv-work-paper-name">Code Compression</span><span class="cv-work-paper-venue">Arxiv</span></span></span></li>
     </ul>
   </div>
 
@@ -343,10 +348,10 @@
       <span class="cv-entry-right">2023.11 – 2024.09 · 北京</span>
     </div>
     <ul class="cv-highlights">
-      <li>从<strong>正确性</strong>和<strong>细节敏感性</strong>的角度合成代码SFT数据，在小模型上达到SOTA。<span class="cv-work-paper"><span class="cv-work-paper-name">Semi-Instruct</span><span class="cv-work-paper-venue">Arxiv 2024</span></span> <span class="cv-work-paper"><span class="cv-work-paper-name">CTF-Instruct</span><span class="cv-work-paper-venue">Arxiv 2025</span></span></li>
-      <li>利用<strong>多编程语言</strong>辅助推理，在多个基准和模型上取得一致提升。<span class="cv-work-paper"><span class="cv-work-paper-name">MultiPoT</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></li>
-      <li>提出噪声训练框架，通过去噪任务<strong>激活LLM的并行解码能力</strong>，在保持任务性能的同时实现2倍加速。<span class="cv-work-paper"><span class="cv-work-paper-name">Make Some Noise</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></li>
-      <li>利用LLM解码的词表分布，<strong>仅需2MB额外存储即可实现2倍无损加速</strong>，超越此前的免训练推测解码方法30%以上。<span class="cv-work-paper wp-outstanding"><span class="cv-work-paper-name">Token Recycling</span><span class="cv-work-paper-venue wp-pub">ACL 2025 Outstanding</span></span></li>
+      <li>围绕<strong>正确性与细节敏感性</strong>构建代码 SFT 数据，使<span class="cv-paper-tail"><strong>小模型达到 SOTA</strong>。<span class="cv-work-paper"><span class="cv-work-paper-name">Semi-Instruct</span><span class="cv-work-paper-venue">Arxiv 2024</span></span> <span class="cv-work-paper"><span class="cv-work-paper-name">CTF-Instruct</span><span class="cv-work-paper-venue wp-pub">Data Intelligence (CCL 2026)</span></span></span></li>
+      <li>通过<strong>多编程语言思维链</strong>，提升多个模型与基准上的推理表<span class="cv-paper-tail">现。<span class="cv-work-paper"><span class="cv-work-paper-name">MultiPoT</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></span></li>
+      <li>提出噪声训练框架，通过去噪任务<strong>激活LLM的并行解码能力</strong>，在保持任务性能的同时实现2倍加<span class="cv-paper-tail">速。<span class="cv-work-paper"><span class="cv-work-paper-name">Make Some Noise</span><span class="cv-work-paper-venue wp-pub">EMNLP 2024</span></span></span></li>
+      <li>利用LLM解码的词表分布，<strong>仅需2MB额外存储即可实现2倍无损加速</strong>，超越此前的免训练推测解码方法30%以<span class="cv-paper-tail">上。<span class="cv-work-paper wp-outstanding"><span class="cv-work-paper-name">Token Recycling</span><span class="cv-work-paper-venue wp-pub">ACL 2025 Outstanding</span></span></span></li>
     </ul>
   </div>
 </div>
@@ -398,15 +403,15 @@
   </div>
 
   <div class="cv-publication">
-    <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
-    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.11441">Is Compression Really Linear with Code Intelligence?</a>
-    <div class="cv-pub-authors">徐杨世杰<sup>*</sup>, <strong>罗先镇<sup>*</sup></strong>, 初征, 李厚意, 黄思明, 王秋锋, 车万翔, 朱庆福, 周水庚</div>
+    <span class="cv-pub-venue cv-pub-other">Data Intelligence (CCL 2026)</span>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.14597">Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals</a>
+    <div class="cv-pub-authors"><strong>罗先镇</strong>, 朱庆福, 张致铭, 徐明拯, 王一轩, 马志远, 车万翔</div>
   </div>
 
   <div class="cv-publication">
     <span class="cv-pub-venue cv-pub-preprint">Arxiv</span>
-    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.14597">Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals</a>
-    <div class="cv-pub-authors"><strong>罗先镇</strong>, 朱庆福, 张致铭, 徐明拯, 程天豪, 王一轩, 初征, 徐杨世杰, 马志远, 范元涛, 车万翔</div>
+    <a class="cv-pub-title" href="https://arxiv.org/abs/2505.11441">Is Compression Really Linear with Code Intelligence?</a>
+    <div class="cv-pub-authors">徐杨世杰<sup>*</sup>, <strong>罗先镇<sup>*</sup></strong>, 初征, 李厚意, 黄思明, 王秋锋, 车万翔, 朱庆福, 周水庚</div>
   </div>
 
   <div class="cv-publication">

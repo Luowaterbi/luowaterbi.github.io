@@ -32,6 +32,7 @@ I am graduating between <span style="color: #e65100; font-weight: bold;">Dec 202
 </div>
 
 # 🔥 News
+- *2026.08*: 🎉 Our [Success is in the Details](https://arxiv.org/abs/2505.14597) is accepted by CCL 2026 and will be published in *Data Intelligence*!
 - *2026.05*: 🎉 Our [CVE-Factory](https://arxiv.org/abs/2602.03012) is accepted as <span class="oral-tag">ICML 2026 Oral</span>! Congratulations to all our collaborators!
 - *2026.04*: 🎉 Our [Scaling Law for Code](https://arxiv.org/abs/2510.08702) is accepted by ACL 2026! Our [Format-Adapter](https://arxiv.org/abs/2506.23133) is accepted by findings of ACL 2026! Congratulations to all our collaborators!
 - *2026.02*: 🔥 We release [CVE-Factory](https://github.com/livecvebench/CVE-Factory), including [training data](https://huggingface.co/Luoberta/cve_train), [Abacus-cve model](https://huggingface.co/Luoberta/Abacus-cve), [LiveCVEBench](https://github.com/livecvebench/LiveCVEBench-Preview), and [Leaderboard](https://livecvebench.github.io)!
@@ -57,7 +58,7 @@ I am graduating between <span style="color: #e65100; font-weight: bold;">Dec 202
 - <span class="conference-tag">ACL 2025</span> [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://aclanthology.org/2025.acl-long.363/), Xuanle Zhao<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Qi Shi, Chi Chen, Shuo Wang, Zhiyuan Liu, Maosong Sun.
 - <span class="conference-tag">KDD 2025</span> [Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](https://dl.acm.org/doi/10.1145/3711896.3736835), Zhiyuan Ma, Jiayu Liu, **Xianzhen Luo**, Zhenya Huang, Qingfu Zhu, Wanxiang Che.
 - <span class="conference-tag">EMNLP 2024</span> [Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training](https://arxiv.org/abs/2406.17404), Yixuan Wang<sup>†</sup>, **Xianzhen Luo<sup>†</sup>**, Fuxuan Wei, Yijun Liu, Qingfu Zhu, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che.
-- <span class="preprint-tag">Arxiv 2025</span> [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals](https://arxiv.org/abs/2505.14597), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Tianhao Cheng, Yixuan Wang, Zheng Chu, Shijie Xuyang, Zhiyuan Ma, YuanTao Fan, Wanxiang Che.
+- <span class="conference-tag">Data Intelligence (CCL 2026)</span> [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code LLMs through Counterfactuals](https://arxiv.org/abs/2505.14597), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Mingzheng Xu, Yixuan Wang, Zhiyuan Ma, Wanxiang Che.
 - <span class="preprint-tag">Arxiv 2025</span> [Automated Snippet-Alignment Data Augmentation for Code Translation](https://arxiv.org/abs/2510.15004), Zhiming Zhang, Qingfu Zhu, **Xianzhen Luo**, Yixuan Wang, Bohan Li, Wanxiang Che.
 - <span class="preprint-tag">Arxiv 2024</span> [Semi-Instruct: Bridging Natural-Instruct and Self-Instruct for Code Large Language Models](https://arxiv.org/abs/2403.00338), **Xianzhen Luo**, Qingfu Zhu, Zhiming Zhang, Xu Wang, Qing Yang, Dongliang Xu, Wanxiang Che.
 
