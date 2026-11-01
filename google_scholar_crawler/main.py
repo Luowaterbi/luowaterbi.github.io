@@ -1,8 +1,16 @@
 from scholarly import scholarly
+from scholarly import ProxyGenerator
 import jsonpickle
 import json
 from datetime import datetime
 import os
+
+scraper_api_key = os.environ.get('SCHOLAR_SCRAPERAPI_KEY')
+if scraper_api_key:
+    proxy = ProxyGenerator()
+    if not proxy.ScraperAPI(scraper_api_key):
+        raise RuntimeError('Unable to initialize the configured Google Scholar proxy.')
+    scholarly.use_proxy(proxy, proxy)
 
 author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
